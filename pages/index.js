@@ -1,75 +1,92 @@
 import React from 'react'
 import Head from 'next/head'
-import Nav from '../components/nav'
-import Container from 'react-bootstrap/Container'
-import '../styles/style.scss'
-import Alert from 'react-bootstrap/Alert'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import Button from 'react-bootstrap/Button'
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
+import Container from 'react-bootstrap/Container';
+import '../styles/custom-theme.scss'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
+const Banner = () => (
+  <>
+   <Header/>
+  <section className="hero_section">
+    <Container>
+      <Row>
+        <Col md={6} xs={12}>
+        <div className="banner_cont">
+        <h1 className="banner_head">
+        A Complete Payments Toolkit for India
+        </h1>
+        <p>The fastest and easiest way to collect and disburse payments for growing businesses</p>
+        </div>
+        <ButtonToolbar>
+        <Button variant="outline-light mr-3">Create Account</Button>
+        <Button variant="primary">Contact Sales</Button>
+       </ButtonToolbar>
+        </Col>
+      </Row>
+      <Row>
+        <Col md={12} xs={12}>
+        <div className="banner_slide">
+
+        </div>
+        </Col>
+      </Row>
+     
+    </Container>
+    {/* <style jsx>{`
+            .banner_cont{
+                margin:200px 0;
+            }
+        `}</style> */}
+  </section>
+  </>
+)
+
+const Products = () => (
+  <section className="page_section">
+    <Container>
+      <div className="text-center">
+      <h1>
+      welcome to cashfree
+      </h1>
+      <ButtonToolbar>
+      <Button variant="primary">Primary</Button>
+      <Button variant="secondary">Secondary</Button>
+      <Button variant="success">Success</Button>
+      <Button variant="warning">Warning</Button>
+      <Button variant="danger">Danger</Button>
+      <Button variant="info">Info</Button>
+      <Button variant="outline-light">Light</Button>
+      <Button variant="dark">Dark</Button>
+      <Button variant="link">Link</Button>
+    </ButtonToolbar>
+      </div>
+    </Container>
+  </section>
+)
+
 
 const Home = () => (
-  <div>
+<>
     <Head>
       <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet"></link>
     </Head>
-
-      <Container>
-      <Nav className="text-center" />
-      </Container>
-
-    <div className="hero">
-      <h1 className="title">Welcome to Cashfree!</h1>
-      <p className="description">
-        To get started, edit <code>pages/index.js</code> and save to reload.
-      </p>
-
-    </div>
-    <style jsx>{`
-      .hero {
-        width: 100%;
-        color: #333;
-      }
-      .title {
-        margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        line-height: 1.15;
-        font-size: 48px;
-      }
-      .title,
-      .description {
-        text-align: center;
-      }
-      .row {
-        max-width: 880px;
-        margin: 80px auto 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-      }
-      .card {
-        padding: 18px 18px 24px;
-        width: 220px;
-        text-align: left;
-        text-decoration: none;
-        color: #434343;
-        border: 1px solid #9b9b9b;
-      }
-      .card:hover {
-        border-color: #067df7;
-      }
-      .card h3 {
-        margin: 0;
-        color: #067df7;
-        font-size: 18px;
-      }
-      .card p {
-        margin: 0;
-        padding: 12px 0 0;
-        font-size: 13px;
-        color: #333;
-      }
-    `}</style>
-  </div>
+     <Banner/>
+     
+     <Products/>
+     <Footer/>
+     <style jsx>{`
+            .bootom_footer{
+                margin-right:20px;
+            }
+        `}</style>
+  </>
 )
 
 export default Home

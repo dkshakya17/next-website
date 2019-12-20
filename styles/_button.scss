@@ -1,0 +1,50 @@
+/* overriding buttons */
+
+.btn-primary{
+    font-size: 1em;
+    font-weight: 500;
+    background: $secondary;
+    padding: 7px 25px;
+    color: #fff;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: none;
+    border-color: $secondary;
+}
+
+.btn-primary:hover,.btn-primary:focus {
+    color: white;
+    background-color: $secondary;
+    box-shadow: none;
+    border-color: $secondary;
+
+}
+
+.btn-outline-light{
+    font-size: 1em;
+    font-weight: 500;
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    padding: 7px 25px;
+    display: inline-block;
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active, 
+.show > .btn-primary.dropdown-toggle,
+.btn-outline-light:hover,.btn-primary:hover,.btn-primary:focus,
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.btn-outline-light:not(:disabled):not(.disabled).active,
+.show > .btn-outline-light.dropdown-toggle
+
+{
+    color: white;
+    background-color: $green-dark;
+    box-shadow: none;
+    border-color: $green-dark;
+    box-shadow: none !important;
+
+}

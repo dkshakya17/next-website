@@ -1,0 +1,47 @@
+
+/* Common css for landing pages */
+
+@import "bootstrap-overrides";
+@import "variables";
+
+
+/*======extends=====*/
+
+%justify-center{
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+%justify-start{
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+}
+
+
+html {
+  font-size: 16px;
+    body {
+      background: white;
+      color: white;
+      box-sizing: border-box;
+      font-family: $font-stack;
+      font-size: 1rem;
+    }
+  }
+  p,div,a{
+    font-family: 'Open Sans', sans-serif;
+  }
+  section,img{
+      width: 100%;
+  }
+  .hero_section {
+      background: $primary;
+      min-height: 500px;
+      @extend %justify-start;
+  }
+  .page_section{
+    padding: 50px 0;
+    background-color: black;
+  }
+

@@ -1,0 +1,19 @@
+
+@import "~bootstrap/scss/bootstrap";
+
+/* overriding bootstrap */
+
+@import "color";
+@import "button";
+@import "header";
+
+a{  
+    color: $primary;
+}
+
+
+
+
+
+
+
