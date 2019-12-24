@@ -16,10 +16,10 @@ const Header = () => (
     <Nav className="ml-auto">
       <Nav.Link href="#features" className="navi">Products</Nav.Link>
       <NavDropdown title="Resources" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.1">Preauthorization Guide</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Merchant Discount Rate</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">NACH Mandate</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">API Banking</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link href="#docs">Documentation</Nav.Link>
       <Nav.Link href="#pricing">Pricing</Nav.Link>
@@ -34,11 +34,11 @@ const Header = () => (
     </Nav>
   </Navbar.Collapse>
   </Container>
-  {/* <style jsx>{`
-     .dropdown-toggle:after{
-      display:none;
-     }
-  `}</style> */}
+<style jsx>{`
+.dropdown-toggle:after{
+  display:none;
+}
+`}</style>
       
 </Navbar>
 );

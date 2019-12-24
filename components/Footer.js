@@ -9,11 +9,6 @@ import Button from "react-bootstrap/Button";
 import Link from 'next/link';
 import Image from 'react-bootstrap/Image';
 
-// const layoutStyle = {
-//     margin: 0,
-//     padding: 45,
-//   };
-
 const Footer = () => (
 
     <div className="main_footer">
@@ -73,7 +68,7 @@ const Footer = () => (
                     <li><a href="http://help.cashfree.com/">Help Center</a></li>
                     <li><a href="https://www.cashfree.com/roundtable">Community for Payment Enthusiasts</a></li>
                 </ul>
-                <h3><a href="https://blog.cashfree.com/?utm_source=website&amp;utm_medium=content_m&amp;utm_campaign=blog&amp;utm_term=blog" target="_blank">Blog</a></h3>
+                <h3>Blog</h3>
                 <ul className="footmenu">
                     <li><a href="https://blog.cashfree.com/cod-refunds-cashgram/">Check the future of refunds in India</a></li>
                     <li><a href="https://blog.cashfree.com/enet-hdfc/">Smarter alternative to Enet HDFC &amp; other corporate banking solutions</a></li>
@@ -96,6 +91,7 @@ const Footer = () => (
             padding-top: 50px;
         }
         .cmpny_info {
+            color:white;
             padding-right: 30px;
         }
         img {
@@ -109,7 +105,8 @@ const Footer = () => (
             width: auto;
             display: inline-block;
             padding-bottom: 0;
-            margin-bottom: 0px;
+           margin: 10px 0;
+            color:white;
         }
         p{
             font-weight: 400;
@@ -117,12 +114,14 @@ const Footer = () => (
             line-height: 22px;
             letter-spacing: .2px;
             font-size: 14px;
+            color:rgba(255,255,255,.7);
+
         }
         a{
-         color:white;
+         color:rgba(255,255,255,.7);
          font-size: 14px;
         }
-        
+       
         a:hover{
             color:white;
            }
@@ -132,7 +131,8 @@ const Footer = () => (
             padding: 10px 0;
         }
         .footmenu li{
-         padding:2px 0;
+         padding:5px 0;
+         color:white;
         }
         .social-logos {
             display: inline-flex;
@@ -150,6 +150,7 @@ const Footer = () => (
             width:30px;
         }
         .bootom_footer {
+            color:white;
             border-top: 1px solid #cccccc85;
             padding-top: 10px;
         }

@@ -5,15 +5,7 @@
 
 @import "color";
 @import "button";
-@import "header";
 
-a{  
-    color: $primary;
-}
-
-
-
-
-
+@import "./components/header";
 
 

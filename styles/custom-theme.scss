@@ -4,7 +4,7 @@
 @import "bootstrap-overrides";
 @import "variables";
 
-
+@import "./components/home";
 /*======extends=====*/
 
 %justify-center{
@@ -18,30 +18,81 @@
   display: inline-flex;
 }
 
+/* common css */
 
 html {
   font-size: 16px;
     body {
-      background: white;
-      color: white;
+      background: $white;
+      color: $light-black;
       box-sizing: border-box;
       font-family: $font-stack;
       font-size: 1rem;
     }
   }
-  p,div,a{
-    font-family: 'Open Sans', sans-serif;
+  p,div{
+    font-family: $font-stack;
+    font-size: 0.87rem;
+    font-weight: normal;
+    color: $dark-grey;
+  }
+  a{  
+    font-family: $font-stack;
+    color: $secondary;
+  }
+  ul{
+    list-style: none;
+    padding: 0 !important;
+  }
+  a:hover{
+    color: $secondary;
   }
   section,img{
       width: 100%;
   }
   .hero_section {
       background: $primary;
-      min-height: 500px;
+      min-height: 600px;
       @extend %justify-start;
   }
   .page_section{
     padding: 50px 0;
-    background-color: black;
+    background-color: $white;
   }
-
+  .light_bg{
+    background-color: $light-bg;
+  }
+  .page_head{
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 20px 0;
+    margin: 0;
+  }
+  .tile_head{
+    font-size: 1.2rem;
+  }
+  .banner_slide {
+    margin-top: 50px;
+    h4{
+    color: $white;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 2rem 0;
+    }
+    .react-multi-carousel-list{
+    justify-content: center;
+    .react-multi-carousel-track{
+      @extend %justify-center;
+      max-width: 800px;
+      li.client_logo_item{
+         img{
+          max-width: 100px;
+          margin: 0 auto;
+        }
+      }
+      
+    }
+    }
+   
+}
