@@ -8,4 +8,28 @@ $light-black:#333;
 $dark-grey:#666666;
 $light-white:rgba(255,255,255,.7);
 $white:#fff;
+$dark-blue:#4f3b7a;
+$blue:#6a5594;
+$voilet:#6844b0;
 
+/*------color class--------*/
+
+.white{
+    color: $white !important;
+}
+.green{
+    color: $secondary !important;
+}
+.blue{
+    color: $blue !important;
+}
+.yellow{
+    color: $yellow !important;
+}
+.voilet_bg{
+    background-color: $voilet !important;
+}
+
+.primary_bg{
+    background-color: $primary !important;
+}

@@ -1,19 +1,12 @@
-
-// const withSass = require('@zeit/next-sass');
-// const withCSS = require('@zeit/next-css');
-
-// module.exports = withCSS(withSass(
-// {
-//         // module.exports = withSass();
-
-// }
-// ));
-
-
-
 const withPlugins = require('next-compose-plugins');
 const sass = require("@zeit/next-sass")
 const css = require("@zeit/next-css")
+const sitemap = require('nextjs-sitemap-generator');  
+sitemap({  
+  baseUrl: '<https://www.cashfree.com>',  
+  pagesDirectory: __dirname + "/pages",  
+  targetDirectory : 'static/'  
+});
 
 const nextConfig = {
   webpack: function (config) {
@@ -28,7 +21,14 @@ const nextConfig = {
     }
   })
   return config
-  }
+  },
+  
+  exportPathMap: function () {
+      return {
+        '/': { page: '/' },
+      }
+    }
+  
 }
 
 module.exports = withPlugins([

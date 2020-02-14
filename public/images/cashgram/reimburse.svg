@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.807 185.832">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f4efff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #e4d8ff;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        fill: #b19fdb;
+      }
+
+      .cls-4 {
+        fill: #4f3b7a;
+      }
+
+      .cls-5 {
+        fill: #6a5594;
+      }
+    </style>
+  </defs>
+  <g id="Group_240" data-name="Group 240" transform="translate(-13689.011 -15081)">
+    <g id="Group_230" data-name="Group 230" transform="translate(12400.335 12266.341)">
+      <ellipse id="Ellipse_80" data-name="Ellipse 80" class="cls-1" cx="92.916" cy="92.916" rx="92.916" ry="92.916" transform="translate(1288.676 2814.659)"/>
+      <path id="Path_232" data-name="Path 232" class="cls-2" d="M1387.474,12618.83l110.94,37.361,7.864-61.232Z" transform="translate(14.865 -9748.49)"/>
+      <path id="Path_233" data-name="Path 233" class="cls-3" d="M0,4.339l8.042,5.726L9.335,0Z" transform="matrix(0.545, -0.839, 0.839, 0.545, 1360.92, 2908.56)"/>
+      <path id="Path_234" data-name="Path 234" class="cls-1" d="M0,4.339l8.042,5.726L9.335,0Z" transform="translate(1348.027 2895.813) rotate(-5)"/>
+      <path id="Path_235" data-name="Path 235" class="cls-1" d="M0,7.536l13.969,9.946L16.214,0Z" transform="translate(1444.35 2816.414) rotate(-5)"/>
+      <g id="Group_195" data-name="Group 195" transform="translate(1409.3 2848.983) rotate(21)">
+        <path id="Path_227" data-name="Path 227" class="cls-4" d="M40.485,28.691C58.646,29.142,44.383,0,44.383,0L0,5.274S22.324,28.239,40.485,28.691Z" transform="translate(46.188 80.536)"/>
+        <path id="Path_226" data-name="Path 226" class="cls-5" d="M23.084,9.995s2.321,22.6-15.412,48.162.83,49.671.83,49.671l77.92,1.4s-16.5-27.7-1.05-55.057S100.8,0,100.8,0Z" transform="translate(0 0)"/>
+        <path id="Path_228" data-name="Path 228" class="cls-3" d="M30.484,0s-.852,3.884-1.776,5.018S0,7.138,0,7.138L2.379,1.916Z" transform="translate(58.136 26.615)"/>
+        <path id="Path_229" data-name="Path 229" class="cls-3" d="M45.63,0s-.852,3.885-1.776,5.018S0,8.556,0,8.556L2.38,3.334Z" transform="matrix(0.999, 0.035, -0.035, 0.999, 40.205, 33.277)"/>
+        <path id="Path_230" data-name="Path 230" class="cls-3" d="M46.066,0,44.1,5.073,0,8.094,2.83,2.943Z" transform="matrix(0.999, 0.035, -0.035, 0.999, 12.051, 49.893)"/>
+        <path id="Path_231" data-name="Path 231" class="cls-3" d="M34.888,0,32.921,5.073,0,7.377,2.83,2.226Z" transform="matrix(0.999, 0.035, -0.035, 0.999, 8.032, 57.799)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="39" viewBox="0 0 38 39">
+    <defs>
+        <path id="a" d="M0 38.176h38V0H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#00B7B1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M37 19c0-9.94-8.06-18-18-18C9.059 1 1 9.06 1 19s8.059 18 18 18c9.94 0 18-8.06 18-18z"/>
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <path fill="#FFF" d="M8.623 28.633h4.151v-16H8.623z" mask="url(#b)"/>
+        <path stroke="#00B7B1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.623 28.633h4.151v-16H8.623z" mask="url(#b)"/>
+        <path fill="#FFF" d="M16.925 28.633h4.15V9.366h-4.15z" mask="url(#b)"/>
+        <path stroke="#00B7B1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.925 28.633h4.15V9.366h-4.15z" mask="url(#b)"/>
+        <path fill="#FFF" d="M25.227 28.633h4.15V17.588h-4.15z" mask="url(#b)"/>
+        <path stroke="#00B7B1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M25.227 28.633h4.15V17.588h-4.15zM31.747 31.708L37 37.177" mask="url(#b)"/>
+    </g>
+</svg>

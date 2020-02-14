@@ -1,24 +1,11 @@
 
 /* Common css for landing pages */
-
 @import "bootstrap-overrides";
 @import "variables";
-
+@import "mixins";
+@import "./components/header";
 @import "./components/home";
-/*======extends=====*/
-
-%justify-center{
-  justify-content: center;
-  align-items: center;
-  display: inline-flex;
-}
-%justify-start{
-  justify-content: flex-start;
-  align-items: center;
-  display: inline-flex;
-}
-
-/* common css */
+@import "./components/products";
 
 html {
   font-size: 16px;
@@ -30,13 +17,19 @@ html {
       font-size: 1rem;
     }
   }
+  h1{
+      @include xs{
+       font-size: 1.6rem;;
+    }
+  }
   p,div{
     font-family: $font-stack;
     font-size: 0.87rem;
     font-weight: normal;
     color: $dark-grey;
   }
-  a{  
+  
+  a,a:not([href]){  
     font-family: $font-stack;
     color: $secondary;
   }
@@ -44,8 +37,10 @@ html {
     list-style: none;
     padding: 0 !important;
   }
-  a:hover{
+  a:hover,a:not([href]):hover{
     color: $secondary;
+    text-decoration: underline;
+    cursor: pointer;
   }
   section,img{
       width: 100%;
@@ -53,27 +48,69 @@ html {
   .hero_section {
       background: $primary;
       min-height: 600px;
-      @extend %justify-start;
+      @extend %justify-center;
+      @include xs{
+        min-height: 100%;
+        padding: 20px 0;
+      }
+      .center_content{
+        @extend %justify-start;
+        flex-direction: column;
+        flex-flow: column;
+        
+      }
+      p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 24px 0;
+        color: white;
+        @include xs {
+          font-size: 0.87rem;
+        }
+      }
+      
   }
   .page_section{
     padding: 50px 0;
-    background-color: $white;
   }
   .light_bg{
     background-color: $light-bg;
   }
+  .center_content{
+    @extend %justify-center;
+  }
+  
   .page_head{
     color: #333;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 500;
     padding: 20px 0;
     margin: 0;
+    position: relative;
+    @include xs{
+      font-size: 1.2rem;
+    }
+    &:after {
+      height: 3px;
+      position: absolute;
+      bottom: 5px;
+      width: 200px;
+      content: '';
+      background-color: #4db3ae;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      border-radius: 50%;
+  }
   }
   .tile_head{
     font-size: 1.2rem;
+    @include xs{
+      font-size: 1rem;
+    }
   }
   .banner_slide {
-    margin-top: 50px;
+    padding: 30px 0;
     h4{
     color: $white;
     font-size: 1.6rem;
@@ -84,10 +121,11 @@ html {
     justify-content: center;
     .react-multi-carousel-track{
       @extend %justify-center;
-      max-width: 800px;
+      max-width: 1000px;
       li.client_logo_item{
+        padding: 0 10px;
          img{
-          max-width: 100px;
+          max-width: 150px;
           margin: 0 auto;
         }
       }
@@ -95,4 +133,17 @@ html {
     }
     }
    
+}
+
+/* footer bottom product card*/
+
+
+.link-payment-item{
+  img {
+    width: 100%;
+    max-width: 100px;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+}
 }

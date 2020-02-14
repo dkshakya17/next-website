@@ -3,34 +3,129 @@
 }
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active
 {
-    border-bottom: 2px solid $yellow !important;
+    border-bottom: 2px solid $yellow  ;
     color: $white;
 }
 .navbar {
     background-color: $primary;
     padding: 15px 0;
+    @include xs {
+        padding: 15px 15px;
+    }
+   
 }
     .navbar-light {
+        .navbar-toggler {
+            color: white;
+            border-color: white;
+        }
 
         .navbar-brand{
             @extend %justify-center;
             margin-right:0px;
             min-width:120px;
-            padding: 0 !important;
+            padding: 0  ;
+            cursor: pointer;
         }
         .navbar-nav {
+          .dropdown-menu
+          {
+              margin: 0;
+              .dropdown-item{
+                  padding: 10px 20px;
+                  &:hover{
+                      background: transparent;
+                      color: $primary;
+                  }
+                  &:focus{
+                    background: transparent;
+                }
+              }
+            .megamenu {
+                width: 100%;
+                min-width: 885px;
+                @include xs{
+                    min-width: auto;
+                }
+                h5 {
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    font-size: 12px;
+                    margin-bottom: 20px;
+                    color: $dark-grey;
+                }
+                .ulDivMenu {
+                    padding: 20px ;
+                    line-height: normal ;
+                    min-height: 300px;
+                    background: 0 0;
+                    a.dropdown-products{
+                        min-height: 75px ;
+                        width: 100%;
+                        padding: 0 ;
+                        display: inline-block;
+                        &:hover{
+                            text-decoration: none;
+                            div{
+                                color: $primary;
+                                small.subText {
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                        div{
+                            font-size: 1rem;
+                            font-weight: 600;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            color: $light-black;
+                            border: none ;
+                            .early-access {
+                                border-radius: 2em;
+                                background-color: #00b7b1;
+                                color: white;
+                                font-size: .6em;
+                                font-weight: 600;
+                                padding-left: .5em;
+                                padding-right: .5em;
+                                text-transform: uppercase;
+                                padding-top: .2em;
+                                padding-bottom: .2em;
+                            }
+                            small.subText {
+                                font-size: 12px;
+                                font-weight: 400;
+                                font-stretch: normal;
+                                font-style: normal;
+                                letter-spacing: normal;
+                                opacity: 1;
+                                color: $light-black;
+                                margin-top: 5px;
+                                display: inline-block;
+                                line-height: 20px;
+                            }
+                         }
+                         
+                    }
+                }
+            }
+          }
+            
             .nav-link{
-                font-size: 16px!important;
+                font-size: 16px ;
                 font-weight: 500;
                 font-stretch: normal;
                 font-style: normal;
                 line-height: normal;
                 letter-spacing: normal;
                 color: $white;
-                border-bottom: 2px solid transparent!important;
+                border-bottom: 2px solid transparent ;
                 padding: 15px 15px;
                 &:hover{
-                    border-bottom: 2px solid $yellow !important;
+                    border-bottom: 2px solid $yellow  ;
                     color: $white;
                 }
             }
@@ -49,12 +144,27 @@
                 color: $white;
                 margin: 0px 10px;
                 padding: 5px 0;
-                border-bottom:2px solid $white !important;
+                border-bottom:2px solid $white  ;
                 @extend %justify-center;
+                outline: none;
                 &:hover{
                     border-bottom:2px solid $white !important;
                     background-color: $white;
                     color: $primary;
+
+                }
+                &:focus{
+                    border-bottom:2px solid $white !important ;
+                    background-color: $white;
+                    color: $primary !important;
+                    outline: none;
+                    box-shadow: none;
+
+                }
+                &.active{
+                    border-bottom:2px solid $white !important ;
+                    background-color: $white;
+                    color: $primary !important;
 
                 }
             }
@@ -70,10 +180,25 @@
             letter-spacing: normal;
             color: $primary;
             padding: 5px 0;
-            border-bottom:2px solid $white !important;
+            border-bottom:2px solid $white  ;
             &:hover{
-                border-bottom:2px solid $white !important;
+                border-bottom:2px solid $white  ;
                 color: $primary;
+            }
+            &:focus{
+                border-bottom:2px solid $white !important ;
+                background-color: $white;
+                color: $primary !important;
+                outline: none;
+                box-shadow: none;
+
+            }
+            &.active{
+                border-bottom:2px solid $white !important ;
+                background-color: $white;
+                color: $primary !important;
+                outline: none;
+
             }
 
             }

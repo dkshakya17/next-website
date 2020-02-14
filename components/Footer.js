@@ -2,12 +2,7 @@ import React, { useState, Component } from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from "react-bootstrap/Card";
-import Form from "react-bootstrap/Form";
-import ListGroup from "react-bootstrap/ListGroup";
-import Button from "react-bootstrap/Button";
-import Link from 'next/link';
-import Image from 'react-bootstrap/Image';
+import Router from 'next/router'
 
 const Footer = () => (
 
@@ -29,14 +24,14 @@ const Footer = () => (
                 <Col md={2} xs={12}>
                 <h3>Company</h3>
                 <ul className="footmenu">
-                    <li><a href="/careers">Careers</a></li> 
-                    <li><a href="/partner-program">Partner with us</a></li>                    
-                    <li><a href="/contact-us">Contact us</a></li>
-                    <li><a href="/presskit">Press Kit</a></li>
+                    <li><a onClick={() => Router.push('/careers')}>Careers</a></li> 
+                    <li><a onClick={() => Router.push('/partner-program')}href="/partner-program">Partner with us</a></li>                    
+                    <li><a onClick={() => Router.push('/contact-us')}>Contact us</a></li>
+                    <li><a onClick={() => Router.push('/presskit')}>Press Kit</a></li>
                 </ul>
                 <h3>Legal</h3>
                 <ul className="footmenu">
-                    <li><a href="/tnc">Terms and Condition</a></li>
+                    <li><a onClick={() => Router.push('/tnc')}>Terms and Condition</a></li>
                     <li><a href="https://cashfree.com/privacypolicy.html">Privacy Policy</a></li>
                 </ul>
                 <h3>Developers</h3>
@@ -48,16 +43,16 @@ const Footer = () => (
                 <Col md={3} xs={12}>
                 <h3>Products</h3>
                 <ul className="footmenu">
-                    <li><a href="/payment-gateway-india">Payment Gateway</a></li>
-                    <li><a href="/auto-collect">Auto Collect</a></li>
-                    <li><a href="/payouts">Payouts</a></li>
-                    <li><a href="/marketplace-settlements">Marketplace Settlement</a></li>
+                    <li><a onClick={() => Router.push('/payment-gateway-india')}>Payment Gateway</a></li>
+                    <li><a onClick={() => Router.push('/auto-collect')}>Auto Collect</a></li>
+                    <li><a onClick={() => Router.push('/payouts')}>Payouts</a></li>
+                    <li><a onClick={() => Router.push('/marketplace-settlements')}>Marketplace Settlement</a></li>
                 </ul>
                 <h3>Solutions</h3>
                 <ul className="footmenu">
-                    <li><a href="/shopify-payment-gateway-india">Shopify Payment Gateway</a></li>
-                    <li><a href="/woocommerce-payment-gateway-india">Woocommerce Payment Gateway</a></li>
-                    <li><a href="/magento-payment-gateway-india">Magento Payment Gateway</a></li>
+                    <li><a onClick={() => Router.push('/shopify-payment-gateway-india')}>Shopify Payment Gateway</a></li>
+                    <li><a onClick={() => Router.push('/woocommerce-payment-gateway-india')}>Woocommerce Payment Gateway</a></li>
+                    <li><a onClick={() => Router.push('/magento-payment-gateway-india')}>Magento Payment Gateway</a></li>
                     <li><a href="https://docs.cashfree.com/docs/opencart/guide/">Opencart Payment Gateway</a></li>
                 </ul>
                 </Col>
@@ -120,6 +115,7 @@ const Footer = () => (
         a{
          color:rgba(255,255,255,.7);
          font-size: 14px;
+         cursor:pointer;
         }
        
         a:hover{

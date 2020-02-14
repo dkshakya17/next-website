@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258.932 215.247">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f4efff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #b19fdb;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #4f3b7a;
+      }
+
+      .cls-4 {
+        fill: #6a5594;
+      }
+
+      .cls-5 {
+        fill: #b19fdb;
+      }
+
+      .cls-6 {
+        opacity: 0.232;
+      }
+    </style>
+  </defs>
+  <g id="Group_237" data-name="Group 237" transform="translate(-13109.358 -14509.608)">
+    <g id="Group_228" data-name="Group 228" transform="translate(12764.728 12014.21)">
+      <ellipse id="Ellipse_63" data-name="Ellipse 63" class="cls-1" cx="101.583" cy="101.583" rx="101.583" ry="101.583" transform="translate(356.906 2507.481)"/>
+      <line id="Line_4" data-name="Line 4" class="cls-2" y1="79.95" x2="100.678" transform="translate(445.762 2495.79)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-2" x2="137.057" y2="4.23" transform="translate(466.49 2646.807)"/>
+      <g id="Group_190" data-name="Group 190" transform="translate(336.272 2590.357) rotate(-11)">
+        <g id="Group_188" data-name="Group 188" transform="translate(20.468 69.139)">
+          <path id="Path_214" data-name="Path 214" class="cls-3" d="M0,.947l8.129,36.6s5.837,1.567,6.781-2.788.734-21.139.734-21.139.74-8.6,9.618-6.782C25.057,2.981,24.829,0,24.829,0Z" transform="translate(1.596 0)"/>
+          <path id="Path_213" data-name="Path 213" class="cls-4" d="M0,.947l8.129,36.6s5.837,1.567,6.781-2.788.734-21.139.734-21.139.74-8.6,9.618-6.782C25.057,2.981,24.829,0,24.829,0Z"/>
+          <path id="Path_215" data-name="Path 215" class="cls-3" d="M0,0,.376,6.833H2.147L1.593,0Z" transform="translate(24.878 0)"/>
+        </g>
+        <path id="Intersection_5" data-name="Intersection 5" class="cls-3" d="M0,.761,19.944,0c-.022,1.755-.833,4.934-6.341,5.267C6.434,5.7,4.209,17.13,3.957,18.574Z" transform="translate(20.468 69.325)"/>
+        <path id="Path_211" data-name="Path 211" class="cls-5" d="M2.773,55.739c62.777-6.481,84.563,8.388,84.563,8.388S74.387,16.367,72.274,0C51.541,22.1,0,33.18,0,33.18Z" transform="translate(9.553 15.699)"/>
+        <ellipse id="Ellipse_71" data-name="Ellipse 71" class="cls-4" cx="14.893" cy="41.489" rx="14.893" ry="41.489" transform="translate(73.876 5.684) rotate(-11)"/>
+        <ellipse id="Ellipse_69" data-name="Ellipse 69" class="cls-5" cx="12.234" cy="39.361" rx="12.234" ry="39.361" transform="translate(76.893 7.264) rotate(-11)"/>
+        <path id="Intersection_4" data-name="Intersection 4" class="cls-5" d="M2.157,38.884C-1.281,21.2-.486,5.565,3.665,0,10.106.8,18.03,16.335,21.92,36.343c3.438,17.69,2.643,33.321-1.508,38.884C13.971,74.429,6.046,58.892,2.157,38.884Z" transform="translate(82.246 7.018)"/>
+        <path id="Intersection_3" data-name="Intersection 3" class="cls-6" d="M2.157,36.618C-.892,20.932-.611,6.865,2.385,0c5.6,4.67,11.543,18.121,14.748,34.608C20.181,50.294,19.9,64.361,16.9,71.226,11.307,66.556,5.362,53.105,2.157,36.618Z" transform="translate(82.246 9.284)"/>
+        <path id="Union_8" data-name="Union 8" class="cls-4" d="M0,16.31A11.439,11.439,0,0,1,9.4,5.056C11.8,4.475,26.792.834,27.917.028c1.224-.877-7.251,18.8,6.6,26.259-3.107.3-15.059.559-20.053,1.053a11.4,11.4,0,0,1-2.131.371.128.128,0,0,1-.1.007q-.4.027-.8.028A11.436,11.436,0,0,1,0,16.31Z" transform="translate(0 43.805)"/>
+        <path id="Path_216" data-name="Path 216" class="cls-4" d="M0,.905,14.371,0,16.34,16.506,3.269,20.2Z" transform="translate(82.031 34.433)"/>
+        <ellipse id="Ellipse_72" data-name="Ellipse 72" class="cls-3" cx="3.457" cy="8.51" rx="3.457" ry="8.51" transform="matrix(0.995, -0.105, 0.105, 0.995, 93.01, 34.46)"/>
+      </g>
+    </g>
+  </g>
+</svg>

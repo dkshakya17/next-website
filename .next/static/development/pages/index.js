@@ -862,6 +862,546 @@ var Header = function Header() {
 
 /***/ }),
 
+/***/ "./components/HomeFaqs.js":
+/*!********************************!*\
+  !*** ./components/HomeFaqs.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Accordion */ "./node_modules/react-bootstrap/esm/Accordion.js");
+/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Card */ "./node_modules/react-bootstrap/esm/Card.js");
+var _jsxFileName = "/Users/deepakkumar/Documents/cashfree-next-web/components/HomeFaqs.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var HomeFaqs = function HomeFaqs() {
+  return __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    defaultActiveKey: "0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Header,
+    eventKey: "0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("h5", {
+    className: "faq_head",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Why should I choose Cashfree?")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
+    eventKey: "0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "faq_content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Cashfree is a full stack payments solution. It helps Indian businesses accept and send money and is used by 15000 businesses for vendor payouts, wage payouts, bulk refunds etc."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Cashfree is next generation payment gateway that is easy to integrate and supports instant refunds. Cashfree is also India\u2019s leading API banking platform that lets businesses send money round-the-clock and instantly to bank accounts and cards with a simple API that can be integrated with their product, instead of uploading complicated files on their corporate banking portal."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Cashfree also offers a split payment solution for marketplaces, a Bank Account Verification API and Auto Collect -- a virtual account solution to match inbound payments to customers."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "Cashfree is integrated with major platforms like Shopify, Wix, Paypal, Amazon Pay, Google Pay and Ola."))))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Header,
+    eventKey: "1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("h5", {
+    className: "faq_head",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "How is Cashfree payment gateway different from other payment gateways in India?")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
+    eventKey: "1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "faq_content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "Cashfree offers the highest number of payment modes in India via a single integration -- including Pay Later, Paytm, Cardless EMI and even recurring subscription payments. Cashfree is the only payment gateway that offers instant refunds versus the industry standard of 5-7 working days -- this ensures Cashfree merchants are able to delight their customers while running business operations smoothly."))))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Header,
+    eventKey: "2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, __jsx("h5", {
+    className: "faq_head",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "Can I start accepting international payments instantly?")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
+    eventKey: "2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "faq_content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "Yes, it is possible to enable international payments on Cashfree's payment gateway -- talk to us and help us understand your business for quick activation. If you have a Paypal account, ", __jsx("a", {
+    href: "https://blog.cashfree.com/paypal-integration/",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "connect Paypal to Cashfree "), " and start offering Paypal as a checkout option on the payment page instantly."))))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Header,
+    eventKey: "3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, __jsx("h5", {
+    className: "faq_head",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "What is Payouts?")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
+    eventKey: "3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "faq_content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "Payouts is a very simple and fast way for a business to make outward payments in bulk. For example, a marketplace can payout its vendors instantly, in an automated manner via an API or uploading a simple Excel file on the dashboard. Payouts is used by delivery companies to pay wages to their delivery partners instantly, lending companies for instant loan disbursals and e-commerce companies to process refunds quickly for cash on delivery orders."))))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Header,
+    eventKey: "4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, __jsx("h5", {
+    className: "faq_head",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, "Can I get a tailored pricing for my business?")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
+    eventKey: "4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "faq_content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, "Yes, we do provide tailored pricing depending on the nature of your business and volume of transactions. For more details, contact us or visit the Pricing page."))))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Header,
+    eventKey: "5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, __jsx("h5", {
+    className: "faq_head",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, "How long does it take to approve my account?")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
+    eventKey: "5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "faq_content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "Once your documents are submitted for review, you should get approved and hear from us in 24 hours. Please reach us over chat or email support@cashfree.com to request a quicker approval and we can try and expedite."))))), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
+    as: react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Header,
+    eventKey: "6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, __jsx("h5", {
+    className: "faq_head",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "How to get started on Cashfree?")), __jsx(react_bootstrap_Accordion__WEBPACK_IMPORTED_MODULE_1__["default"].Collapse, {
+    eventKey: "6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2__["default"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "faq_content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }, "We do 100% paperless onboarding for merchants on Cashfree. Following are the steps for integration"), __jsx("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, " 1. ", __jsx("a", {
+    href: "https://merchant.cashfree.com/merchant/sign-up",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, "Signup on Cashfree")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109
+    },
+    __self: this
+  }, "2. Update your business profile and upload scanned copies of business documents"), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110
+    },
+    __self: this
+  }, "3. Choose the product you are interested in. You can try out the products yourself. Login and switch to Test Account.   ", __jsx("a", {
+    href: "https://docs.cashfree.com/docs/",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110
+    },
+    __self: this
+  }, "Check integration documentation"), "."), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111
+    },
+    __self: this
+  }, "4. Our Payment expert will call you in the next 24 hours, share your business requirement and we will help you pick the right set of features."), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112
+    },
+    __self: this
+  }, "5. Once account is verified, our Product team will help you with the integration."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }, "Refer ", __jsx("a", {
+    href: "http://help.cashfree.com/en/collections/350039-how-to-get-started",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }, "here"), "  for quick account activation")))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (HomeFaqs);
+
+/***/ }),
+
+/***/ "./components/VideoModal.js":
+/*!**********************************!*\
+  !*** ./components/VideoModal.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Modal */ "./node_modules/react-bootstrap/esm/Modal.js");
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
+var _jsxFileName = "/Users/deepakkumar/Documents/cashfree-next-web/components/VideoModal.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+function VideoModal() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      show = _useState[0],
+      setShow = _useState[1];
+
+  var handleClose = function handleClose() {
+    return setShow(false);
+  };
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    show: show,
+    onHide: handleClose,
+    animation: false,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_1__["default"].Header, {
+    closeButton: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_1__["default"].Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Modal heading")), __jsx(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_1__["default"].Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Woohoo, you're reading this text in a modal!"), __jsx(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_1__["default"].Footer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    variant: "secondary",
+    onClick: handleClose,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Close"), __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    variant: "primary",
+    onClick: handleClose,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Save Changes"))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (VideoModal);
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
@@ -1603,6 +2143,26 @@ module.exports = _typeof;
 
 module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/regenerator-runtime/runtime.js");
 
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _assertThisInitialized; });
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
 
 /***/ }),
 
@@ -6014,6 +6574,63 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
+/***/ "./node_modules/dom-helpers/esm/activeElement.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/activeElement.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return activeElement; });
+/* harmony import */ var _ownerDocument__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ownerDocument */ "./node_modules/dom-helpers/esm/ownerDocument.js");
+
+/**
+ * Return the actively focused element safely.
+ *
+ * @param doc the document to checl
+ */
+
+function activeElement(doc) {
+  if (doc === void 0) {
+    doc = Object(_ownerDocument__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  }
+
+  // Support: IE 9 only
+  // IE9 throws an "Unspecified error" accessing document.activeElement from an <iframe>
+  try {
+    var active = doc.activeElement; // IE11 returns a seemingly empty object in some cases when accessing
+    // document.activeElement from an <iframe>
+
+    if (!active || !active.nodeName) return null;
+    return active;
+  } catch (e) {
+    /* ie throws if no active element */
+    return doc.body;
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/dom-helpers/esm/addClass.js":
+/*!**************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/addClass.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return addClass; });
+/* harmony import */ var _hasClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hasClass */ "./node_modules/dom-helpers/esm/hasClass.js");
+
+function addClass(element, className) {
+  if (element.classList) element.classList.add(className);else if (!Object(_hasClass__WEBPACK_IMPORTED_MODULE_0__["default"])(element, className)) if (typeof element.className === 'string') element.className = element.className + " " + className;else element.setAttribute('class', (element.className && element.className.baseVal || '') + " " + className);
+}
+
+/***/ }),
+
 /***/ "./node_modules/dom-helpers/esm/addEventListener.js":
 /*!**********************************************************!*\
   !*** ./node_modules/dom-helpers/esm/addEventListener.js ***!
@@ -6197,6 +6814,23 @@ function getComputedStyle(node, psuedoElement) {
 
 /***/ }),
 
+/***/ "./node_modules/dom-helpers/esm/hasClass.js":
+/*!**************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/hasClass.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return hasClass; });
+function hasClass(element, className) {
+  if (element.classList) return !!className && element.classList.contains(className);
+  return (" " + (element.className.baseVal || element.className) + " ").indexOf(" " + className + " ") !== -1;
+}
+
+/***/ }),
+
 /***/ "./node_modules/dom-helpers/esm/hyphenate.js":
 /*!***************************************************!*\
   !*** ./node_modules/dom-helpers/esm/hyphenate.js ***!
@@ -6238,6 +6872,22 @@ function hyphenateStyleName(string) {
 
 /***/ }),
 
+/***/ "./node_modules/dom-helpers/esm/isDocument.js":
+/*!****************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/isDocument.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isDocument; });
+function isDocument(element) {
+  return 'nodeType' in element && element.nodeType === document.DOCUMENT_NODE;
+}
+
+/***/ }),
+
 /***/ "./node_modules/dom-helpers/esm/isTransform.js":
 /*!*****************************************************!*\
   !*** ./node_modules/dom-helpers/esm/isTransform.js ***!
@@ -6251,6 +6901,26 @@ __webpack_require__.r(__webpack_exports__);
 var supportedTransforms = /^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i;
 function isTransform(value) {
   return !!(value && supportedTransforms.test(value));
+}
+
+/***/ }),
+
+/***/ "./node_modules/dom-helpers/esm/isWindow.js":
+/*!**************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/isWindow.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isWindow; });
+/* harmony import */ var _isDocument__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./isDocument */ "./node_modules/dom-helpers/esm/isDocument.js");
+
+function isWindow(node) {
+  if ('window' in node && node.window === node) return node;
+  if (Object(_isDocument__WEBPACK_IMPORTED_MODULE_0__["default"])(node)) return node.defaultView || false;
+  return false;
 }
 
 /***/ }),
@@ -6358,6 +7028,33 @@ function qsa(element, selector) {
 
 /***/ }),
 
+/***/ "./node_modules/dom-helpers/esm/removeClass.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/removeClass.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return removeClass; });
+function replaceClassName(origClass, classToRemove) {
+  return origClass.replace(new RegExp("(^|\\s)" + classToRemove + "(?:\\s|$)", 'g'), '$1').replace(/\s+/g, ' ').replace(/^\s*|\s*$/g, '');
+}
+
+function removeClass(element, className) {
+  if (element.classList) {
+    element.classList.remove(className);
+  } else if (typeof element.className === 'string') {
+    ;
+    element.className = replaceClassName(element.className, className);
+  } else {
+    element.setAttribute('class', replaceClassName(element.className && element.className.baseVal || '', className));
+  }
+}
+
+/***/ }),
+
 /***/ "./node_modules/dom-helpers/esm/removeEventListener.js":
 /*!*************************************************************!*\
   !*** ./node_modules/dom-helpers/esm/removeEventListener.js ***!
@@ -6377,6 +7074,39 @@ function removeEventListener(node, eventName, handler, options) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (removeEventListener);
+
+/***/ }),
+
+/***/ "./node_modules/dom-helpers/esm/scrollbarSize.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/dom-helpers/esm/scrollbarSize.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return scrollbarSize; });
+/* harmony import */ var _canUseDOM__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./canUseDOM */ "./node_modules/dom-helpers/esm/canUseDOM.js");
+
+var size;
+function scrollbarSize(recalc) {
+  if (!size && size !== 0 || recalc) {
+    if (_canUseDOM__WEBPACK_IMPORTED_MODULE_0__["default"]) {
+      var scrollDiv = document.createElement('div');
+      scrollDiv.style.position = 'absolute';
+      scrollDiv.style.top = '-9999px';
+      scrollDiv.style.width = '50px';
+      scrollDiv.style.height = '50px';
+      scrollDiv.style.overflow = 'scroll';
+      document.body.appendChild(scrollDiv);
+      size = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+      document.body.removeChild(scrollDiv);
+    }
+  }
+
+  return size;
+}
 
 /***/ }),
 
@@ -12946,6 +13676,276 @@ AbstractNavItem.defaultProps = defaultProps;
 
 /***/ }),
 
+/***/ "./node_modules/react-bootstrap/esm/Accordion.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/Accordion.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var uncontrollable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! uncontrollable */ "./node_modules/uncontrollable/esm/index.js");
+/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
+/* harmony import */ var _AccordionToggle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./AccordionToggle */ "./node_modules/react-bootstrap/esm/AccordionToggle.js");
+/* harmony import */ var _SelectableContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./SelectableContext */ "./node_modules/react-bootstrap/esm/SelectableContext.js");
+/* harmony import */ var _AccordionCollapse__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./AccordionCollapse */ "./node_modules/react-bootstrap/esm/AccordionCollapse.js");
+/* harmony import */ var _AccordionContext__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./AccordionContext */ "./node_modules/react-bootstrap/esm/AccordionContext.js");
+
+
+
+
+
+
+
+
+
+
+var Accordion = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function (props, ref) {
+  var _useUncontrolled = Object(uncontrollable__WEBPACK_IMPORTED_MODULE_4__["useUncontrolled"])(props, {
+    activeKey: 'onSelect'
+  }),
+      _useUncontrolled$as = _useUncontrolled.as,
+      Component = _useUncontrolled$as === void 0 ? 'div' : _useUncontrolled$as,
+      activeKey = _useUncontrolled.activeKey,
+      bsPrefix = _useUncontrolled.bsPrefix,
+      children = _useUncontrolled.children,
+      className = _useUncontrolled.className,
+      onSelect = _useUncontrolled.onSelect,
+      controlledProps = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_useUncontrolled, ["as", "activeKey", "bsPrefix", "children", "className", "onSelect"]);
+
+  bsPrefix = Object(_ThemeProvider__WEBPACK_IMPORTED_MODULE_5__["useBootstrapPrefix"])(bsPrefix, 'accordion');
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_AccordionContext__WEBPACK_IMPORTED_MODULE_9__["default"].Provider, {
+    value: activeKey
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_SelectableContext__WEBPACK_IMPORTED_MODULE_7__["default"].Provider, {
+    value: onSelect
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    ref: ref
+  }, controlledProps, {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, bsPrefix)
+  }), children)));
+});
+Accordion.Toggle = _AccordionToggle__WEBPACK_IMPORTED_MODULE_6__["default"];
+Accordion.Collapse = _AccordionCollapse__WEBPACK_IMPORTED_MODULE_8__["default"];
+/* harmony default export */ __webpack_exports__["default"] = (Accordion);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/AccordionCollapse.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/AccordionCollapse.js ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Collapse__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Collapse */ "./node_modules/react-bootstrap/esm/Collapse.js");
+/* harmony import */ var _AccordionContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./AccordionContext */ "./node_modules/react-bootstrap/esm/AccordionContext.js");
+
+
+
+
+
+var AccordionCollapse = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function (_ref, ref) {
+  var children = _ref.children,
+      eventKey = _ref.eventKey,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["children", "eventKey"]);
+
+  var contextEventKey = Object(react__WEBPACK_IMPORTED_MODULE_2__["useContext"])(_AccordionContext__WEBPACK_IMPORTED_MODULE_4__["default"]);
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Collapse__WEBPACK_IMPORTED_MODULE_3__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    ref: ref,
+    in: contextEventKey === eventKey
+  }, props), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.Children.only(children)));
+});
+AccordionCollapse.displayName = 'AccordionCollapse';
+/* harmony default export */ __webpack_exports__["default"] = (AccordionCollapse);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/AccordionContext.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/AccordionContext.js ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+/* harmony default export */ __webpack_exports__["default"] = (react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext(null));
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/AccordionToggle.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/AccordionToggle.js ***!
+  \*************************************************************/
+/*! exports provided: useAccordionToggle, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useAccordionToggle", function() { return useAccordionToggle; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _SelectableContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SelectableContext */ "./node_modules/react-bootstrap/esm/SelectableContext.js");
+/* harmony import */ var _AccordionContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./AccordionContext */ "./node_modules/react-bootstrap/esm/AccordionContext.js");
+
+
+
+
+
+function useAccordionToggle(eventKey, onClick) {
+  var contextEventKey = Object(react__WEBPACK_IMPORTED_MODULE_2__["useContext"])(_AccordionContext__WEBPACK_IMPORTED_MODULE_4__["default"]);
+  var onSelect = Object(react__WEBPACK_IMPORTED_MODULE_2__["useContext"])(_SelectableContext__WEBPACK_IMPORTED_MODULE_3__["default"]);
+  return function (e) {
+    /* 
+      Compare the event key in context with the given event key.
+      If they are the same, then collapse the component.
+    */
+    var eventKeyPassed = eventKey === contextEventKey ? null : eventKey;
+    onSelect(eventKeyPassed, e);
+    if (onClick) onClick(e);
+  };
+}
+var AccordionToggle = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function (_ref, ref) {
+  var _ref$as = _ref.as,
+      Component = _ref$as === void 0 ? 'button' : _ref$as,
+      children = _ref.children,
+      eventKey = _ref.eventKey,
+      onClick = _ref.onClick,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["as", "children", "eventKey", "onClick"]);
+
+  var accordionOnClick = useAccordionToggle(eventKey, onClick);
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    ref: ref,
+    onClick: accordionOnClick
+  }, props), children);
+});
+/* harmony default export */ __webpack_exports__["default"] = (AccordionToggle);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/BootstrapModalManager.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/BootstrapModalManager.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BootstrapModalManager; });
+/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
+/* harmony import */ var dom_helpers_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dom-helpers/css */ "./node_modules/dom-helpers/esm/css.js");
+/* harmony import */ var dom_helpers_querySelectorAll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dom-helpers/querySelectorAll */ "./node_modules/dom-helpers/esm/querySelectorAll.js");
+/* harmony import */ var dom_helpers_scrollbarSize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dom-helpers/scrollbarSize */ "./node_modules/dom-helpers/esm/scrollbarSize.js");
+/* harmony import */ var react_overlays_ModalManager__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-overlays/ModalManager */ "./node_modules/react-overlays/esm/ModalManager.js");
+
+
+
+
+
+var Selector = {
+  FIXED_CONTENT: '.fixed-top, .fixed-bottom, .is-fixed, .sticky-top',
+  STICKY_CONTENT: '.sticky-top',
+  NAVBAR_TOGGLER: '.navbar-toggler'
+};
+
+var BootstrapModalManager =
+/*#__PURE__*/
+function (_ModalManager) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(BootstrapModalManager, _ModalManager);
+
+  function BootstrapModalManager() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _ModalManager.call.apply(_ModalManager, [this].concat(args)) || this;
+
+    _this.adjustAndStore = function (prop, element, adjust) {
+      var _css;
+
+      var actual = element.style[prop];
+      element.dataset[prop] = actual;
+      Object(dom_helpers_css__WEBPACK_IMPORTED_MODULE_1__["default"])(element, (_css = {}, _css[prop] = parseFloat(Object(dom_helpers_css__WEBPACK_IMPORTED_MODULE_1__["default"])(element, prop)) + adjust + "px", _css));
+    };
+
+    _this.restore = function (prop, element) {
+      var value = element.dataset[prop];
+
+      if (value !== undefined) {
+        var _css2;
+
+        delete element.dataset[prop];
+        Object(dom_helpers_css__WEBPACK_IMPORTED_MODULE_1__["default"])(element, (_css2 = {}, _css2[prop] = value, _css2));
+      }
+    };
+
+    return _this;
+  }
+
+  var _proto = BootstrapModalManager.prototype;
+
+  _proto.setContainerStyle = function setContainerStyle(containerState, container) {
+    var _this2 = this;
+
+    _ModalManager.prototype.setContainerStyle.call(this, containerState, container);
+
+    if (!containerState.overflowing) return;
+    var size = Object(dom_helpers_scrollbarSize__WEBPACK_IMPORTED_MODULE_3__["default"])();
+    Object(dom_helpers_querySelectorAll__WEBPACK_IMPORTED_MODULE_2__["default"])(container, Selector.FIXED_CONTENT).forEach(function (el) {
+      return _this2.adjustAndStore('paddingRight', el, size);
+    });
+    Object(dom_helpers_querySelectorAll__WEBPACK_IMPORTED_MODULE_2__["default"])(container, Selector.STICKY_CONTENT).forEach(function (el) {
+      return _this2.adjustAndStore('margingRight', el, -size);
+    });
+    Object(dom_helpers_querySelectorAll__WEBPACK_IMPORTED_MODULE_2__["default"])(container, Selector.NAVBAR_TOGGLER).forEach(function (el) {
+      return _this2.adjustAndStore('margingRight', el, size);
+    });
+  };
+
+  _proto.removeContainerStyle = function removeContainerStyle(containerState, container) {
+    var _this3 = this;
+
+    _ModalManager.prototype.removeContainerStyle.call(this, containerState, container);
+
+    Object(dom_helpers_querySelectorAll__WEBPACK_IMPORTED_MODULE_2__["default"])(container, Selector.FIXED_CONTENT).forEach(function (el) {
+      return _this3.restore('paddingRight', el);
+    });
+    Object(dom_helpers_querySelectorAll__WEBPACK_IMPORTED_MODULE_2__["default"])(container, Selector.STICKY_CONTENT).forEach(function (el) {
+      return _this3.restore('margingRight', el);
+    });
+    Object(dom_helpers_querySelectorAll__WEBPACK_IMPORTED_MODULE_2__["default"])(container, Selector.NAVBAR_TOGGLER).forEach(function (el) {
+      return _this3.restore('margingRight', el);
+    });
+  };
+
+  return BootstrapModalManager;
+}(react_overlays_ModalManager__WEBPACK_IMPORTED_MODULE_4__["default"]);
+
+
+
+/***/ }),
+
 /***/ "./node_modules/react-bootstrap/esm/Button.js":
 /*!****************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Button.js ***!
@@ -13199,6 +14199,59 @@ function (_ref, ref) {
 CardImg.displayName = 'CardImg';
 CardImg.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["default"] = (CardImg);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/CloseButton.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/CloseButton.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+var propTypes = {
+  label: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
+  onClick: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func
+};
+var defaultProps = {
+  label: 'Close'
+};
+var CloseButton = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function (_ref, ref) {
+  var label = _ref.label,
+      onClick = _ref.onClick,
+      className = _ref.className,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["label", "onClick", "className"]);
+
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    ref: ref,
+    type: "button",
+    className: classnames__WEBPACK_IMPORTED_MODULE_4___default()('close', className),
+    onClick: onClick
+  }, props), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
+    "aria-hidden": "true"
+  }, "\xD7"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
+    className: "sr-only"
+  }, label));
+});
+CloseButton.displayName = 'CloseButton';
+CloseButton.propTypes = propTypes;
+CloseButton.defaultProps = defaultProps;
+/* harmony default export */ __webpack_exports__["default"] = (CloseButton);
 
 /***/ }),
 
@@ -13813,6 +14866,68 @@ var DropdownToggle = react__WEBPACK_IMPORTED_MODULE_4___default.a.forwardRef(fun
 });
 DropdownToggle.displayName = 'DropdownToggle';
 /* harmony default export */ __webpack_exports__["default"] = (DropdownToggle);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/Fade.js":
+/*!**************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/Fade.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var dom_helpers_transitionEnd__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dom-helpers/transitionEnd */ "./node_modules/dom-helpers/esm/transitionEnd.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-transition-group/Transition */ "./node_modules/react-transition-group/esm/Transition.js");
+/* harmony import */ var _triggerBrowserReflow__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./triggerBrowserReflow */ "./node_modules/react-bootstrap/esm/triggerBrowserReflow.js");
+
+
+
+var _fadeStyles;
+
+
+
+
+
+
+var defaultProps = {
+  in: false,
+  timeout: 300,
+  mountOnEnter: false,
+  unmountOnExit: false,
+  appear: false
+};
+var fadeStyles = (_fadeStyles = {}, _fadeStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_5__["ENTERING"]] = 'show', _fadeStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_5__["ENTERED"]] = 'show', _fadeStyles);
+var Fade = react__WEBPACK_IMPORTED_MODULE_4___default.a.forwardRef(function (_ref, ref) {
+  var className = _ref.className,
+      children = _ref.children,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["className", "children"]);
+
+  var handleEnter = Object(react__WEBPACK_IMPORTED_MODULE_4__["useCallback"])(function (node) {
+    Object(_triggerBrowserReflow__WEBPACK_IMPORTED_MODULE_6__["default"])(node);
+    if (props.onEnter) props.onEnter(node);
+  }, [props]);
+  return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_5__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    ref: ref,
+    addEndListener: dom_helpers_transitionEnd__WEBPACK_IMPORTED_MODULE_3__["default"]
+  }, props, {
+    onEnter: handleEnter
+  }), function (status, innerProps) {
+    return react__WEBPACK_IMPORTED_MODULE_4___default.a.cloneElement(children, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, innerProps, {
+      className: classnames__WEBPACK_IMPORTED_MODULE_2___default()('fade', className, children.props.className, fadeStyles[status])
+    }));
+  });
+});
+Fade.defaultProps = defaultProps;
+Fade.displayName = 'Fade';
+/* harmony default export */ __webpack_exports__["default"] = (Fade);
 
 /***/ }),
 
@@ -14577,6 +15692,467 @@ var ListGroupItem = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(func
 ListGroupItem.defaultProps = defaultProps;
 ListGroupItem.displayName = 'ListGroupItem';
 /* harmony default export */ __webpack_exports__["default"] = (ListGroupItem);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/Modal.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/Modal.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var dom_helpers_addEventListener__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dom-helpers/addEventListener */ "./node_modules/dom-helpers/esm/addEventListener.js");
+/* harmony import */ var dom_helpers_canUseDOM__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dom-helpers/canUseDOM */ "./node_modules/dom-helpers/esm/canUseDOM.js");
+/* harmony import */ var dom_helpers_ownerDocument__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dom-helpers/ownerDocument */ "./node_modules/dom-helpers/esm/ownerDocument.js");
+/* harmony import */ var dom_helpers_removeEventListener__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dom-helpers/removeEventListener */ "./node_modules/dom-helpers/esm/removeEventListener.js");
+/* harmony import */ var dom_helpers_scrollbarSize__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! dom-helpers/scrollbarSize */ "./node_modules/dom-helpers/esm/scrollbarSize.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_overlays_Modal__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-overlays/Modal */ "./node_modules/react-overlays/esm/Modal.js");
+/* harmony import */ var _BootstrapModalManager__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./BootstrapModalManager */ "./node_modules/react-bootstrap/esm/BootstrapModalManager.js");
+/* harmony import */ var _Fade__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Fade */ "./node_modules/react-bootstrap/esm/Fade.js");
+/* harmony import */ var _ModalBody__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ModalBody */ "./node_modules/react-bootstrap/esm/ModalBody.js");
+/* harmony import */ var _ModalContext__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ModalContext */ "./node_modules/react-bootstrap/esm/ModalContext.js");
+/* harmony import */ var _ModalDialog__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ModalDialog */ "./node_modules/react-bootstrap/esm/ModalDialog.js");
+/* harmony import */ var _ModalFooter__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./ModalFooter */ "./node_modules/react-bootstrap/esm/ModalFooter.js");
+/* harmony import */ var _ModalHeader__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./ModalHeader */ "./node_modules/react-bootstrap/esm/ModalHeader.js");
+/* harmony import */ var _ModalTitle__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./ModalTitle */ "./node_modules/react-bootstrap/esm/ModalTitle.js");
+/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var defaultProps = {
+  show: false,
+  backdrop: true,
+  keyboard: true,
+  autoFocus: true,
+  enforceFocus: true,
+  restoreFocus: true,
+  animation: true,
+  dialogAs: _ModalDialog__WEBPACK_IMPORTED_MODULE_15__["default"],
+  manager: new _BootstrapModalManager__WEBPACK_IMPORTED_MODULE_11__["default"]()
+};
+/* eslint-disable no-use-before-define, react/no-multi-comp */
+
+function DialogTransition(props) {
+  return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_Fade__WEBPACK_IMPORTED_MODULE_12__["default"], props);
+}
+
+function BackdropTransition(props) {
+  return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_Fade__WEBPACK_IMPORTED_MODULE_12__["default"], props);
+}
+/* eslint-enable no-use-before-define */
+
+
+var Modal =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__["default"])(Modal, _React$Component);
+
+  function Modal() {
+    var _this;
+
+    for (var _len = arguments.length, _args = new Array(_len), _key = 0; _key < _len; _key++) {
+      _args[_key] = arguments[_key];
+    }
+
+    _this = _React$Component.call.apply(_React$Component, [this].concat(_args)) || this;
+    _this.state = {
+      style: {}
+    };
+    _this.modalContext = {
+      onHide: function onHide() {
+        return _this.props.onHide();
+      }
+    };
+
+    _this.setModalRef = function (ref) {
+      _this._modal = ref;
+    };
+
+    _this.handleDialogMouseDown = function () {
+      _this._waitingForMouseUp = true;
+    };
+
+    _this.handleMouseUp = function (e) {
+      if (_this._waitingForMouseUp && e.target === _this._modal.dialog) {
+        _this._ignoreBackdropClick = true;
+      }
+
+      _this._waitingForMouseUp = false;
+    };
+
+    _this.handleClick = function (e) {
+      if (_this._ignoreBackdropClick || e.target !== e.currentTarget) {
+        _this._ignoreBackdropClick = false;
+        return;
+      }
+
+      _this.props.onHide();
+    };
+
+    _this.handleEnter = function (node) {
+      var _this$props;
+
+      if (node) {
+        node.style.display = 'block';
+
+        _this.updateDialogStyle(node);
+      }
+
+      for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+        args[_key2 - 1] = arguments[_key2];
+      }
+
+      if (_this.props.onEnter) (_this$props = _this.props).onEnter.apply(_this$props, [node].concat(args));
+    };
+
+    _this.handleEntering = function (node) {
+      var _this$props2;
+
+      for (var _len3 = arguments.length, args = new Array(_len3 > 1 ? _len3 - 1 : 0), _key3 = 1; _key3 < _len3; _key3++) {
+        args[_key3 - 1] = arguments[_key3];
+      }
+
+      if (_this.props.onEntering) (_this$props2 = _this.props).onEntering.apply(_this$props2, [node].concat(args)); // FIXME: This should work even when animation is disabled.
+
+      Object(dom_helpers_addEventListener__WEBPACK_IMPORTED_MODULE_4__["default"])(window, 'resize', _this.handleWindowResize);
+    };
+
+    _this.handleExited = function (node) {
+      var _this$props3;
+
+      if (node) node.style.display = ''; // RHL removes it sometimes
+
+      for (var _len4 = arguments.length, args = new Array(_len4 > 1 ? _len4 - 1 : 0), _key4 = 1; _key4 < _len4; _key4++) {
+        args[_key4 - 1] = arguments[_key4];
+      }
+
+      if (_this.props.onExited) (_this$props3 = _this.props).onExited.apply(_this$props3, args); // FIXME: This should work even when animation is disabled.
+
+      Object(dom_helpers_removeEventListener__WEBPACK_IMPORTED_MODULE_7__["default"])(window, 'resize', _this.handleWindowResize);
+    };
+
+    _this.handleWindowResize = function () {
+      _this.updateDialogStyle(_this._modal.dialog);
+    };
+
+    _this.renderBackdrop = function (props) {
+      var _this$props4 = _this.props,
+          bsPrefix = _this$props4.bsPrefix,
+          backdropClassName = _this$props4.backdropClassName,
+          animation = _this$props4.animation;
+      return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(bsPrefix + "-backdrop", backdropClassName, !animation && 'show')
+      }));
+    };
+
+    return _this;
+  }
+
+  var _proto = Modal.prototype;
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    // Clean up the listener if we need to.
+    Object(dom_helpers_removeEventListener__WEBPACK_IMPORTED_MODULE_7__["default"])(window, 'resize', this.handleWindowResize);
+  };
+
+  _proto.updateDialogStyle = function updateDialogStyle(node) {
+    if (!dom_helpers_canUseDOM__WEBPACK_IMPORTED_MODULE_5__["default"]) return;
+    var manager = this.props.manager;
+    var containerIsOverflowing = manager.isContainerOverflowing(this._modal);
+    var modalIsOverflowing = node.scrollHeight > Object(dom_helpers_ownerDocument__WEBPACK_IMPORTED_MODULE_6__["default"])(node).documentElement.clientHeight;
+    this.setState({
+      style: {
+        paddingRight: containerIsOverflowing && !modalIsOverflowing ? Object(dom_helpers_scrollbarSize__WEBPACK_IMPORTED_MODULE_8__["default"])() : undefined,
+        paddingLeft: !containerIsOverflowing && modalIsOverflowing ? Object(dom_helpers_scrollbarSize__WEBPACK_IMPORTED_MODULE_8__["default"])() : undefined
+      }
+    });
+  };
+
+  _proto.render = function render() {
+    var _this$props5 = this.props,
+        bsPrefix = _this$props5.bsPrefix,
+        className = _this$props5.className,
+        style = _this$props5.style,
+        dialogClassName = _this$props5.dialogClassName,
+        children = _this$props5.children,
+        Dialog = _this$props5.dialogAs,
+        show = _this$props5.show,
+        animation = _this$props5.animation,
+        backdrop = _this$props5.backdrop,
+        keyboard = _this$props5.keyboard,
+        manager = _this$props5.manager,
+        onEscapeKeyDown = _this$props5.onEscapeKeyDown,
+        onShow = _this$props5.onShow,
+        onHide = _this$props5.onHide,
+        container = _this$props5.container,
+        autoFocus = _this$props5.autoFocus,
+        enforceFocus = _this$props5.enforceFocus,
+        restoreFocus = _this$props5.restoreFocus,
+        onEntered = _this$props5.onEntered,
+        onExit = _this$props5.onExit,
+        onExiting = _this$props5.onExiting,
+        _ = _this$props5.onExited,
+        _1 = _this$props5.onEntering,
+        _6 = _this$props5.onEnter,
+        _4 = _this$props5.onEntering,
+        _2 = _this$props5.backdropClassName,
+        props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(_this$props5, ["bsPrefix", "className", "style", "dialogClassName", "children", "dialogAs", "show", "animation", "backdrop", "keyboard", "manager", "onEscapeKeyDown", "onShow", "onHide", "container", "autoFocus", "enforceFocus", "restoreFocus", "onEntered", "onExit", "onExiting", "onExited", "onEntering", "onEnter", "onEntering", "backdropClassName"]);
+
+    var clickHandler = backdrop === true ? this.handleClick : null;
+
+    var baseModalStyle = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, style, {}, this.state.style); // Sets `display` always block when `animation` is false
+
+
+    if (!animation) baseModalStyle.display = 'block';
+    return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_ModalContext__WEBPACK_IMPORTED_MODULE_14__["default"].Provider, {
+      value: this.modalContext
+    }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react_overlays_Modal__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      show: show,
+      backdrop: backdrop,
+      container: container,
+      keyboard: keyboard,
+      autoFocus: autoFocus,
+      enforceFocus: enforceFocus,
+      restoreFocus: restoreFocus,
+      onEscapeKeyDown: onEscapeKeyDown,
+      onShow: onShow,
+      onHide: onHide,
+      onEntered: onEntered,
+      onExit: onExit,
+      onExiting: onExiting,
+      manager: manager,
+      ref: this.setModalRef,
+      style: baseModalStyle,
+      className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(className, bsPrefix),
+      containerClassName: bsPrefix + "-open",
+      transition: animation ? DialogTransition : undefined,
+      backdropTransition: animation ? BackdropTransition : undefined,
+      renderBackdrop: this.renderBackdrop,
+      onClick: clickHandler,
+      onMouseUp: this.handleMouseUp,
+      onEnter: this.handleEnter,
+      onEntering: this.handleEntering,
+      onExited: this.handleExited
+    }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Dialog, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+      onMouseDown: this.handleDialogMouseDown,
+      className: dialogClassName
+    }), children)));
+  };
+
+  return Modal;
+}(react__WEBPACK_IMPORTED_MODULE_9___default.a.Component);
+
+Modal.defaultProps = defaultProps;
+var DecoratedModal = Object(_ThemeProvider__WEBPACK_IMPORTED_MODULE_19__["createBootstrapComponent"])(Modal, 'modal');
+DecoratedModal.Body = _ModalBody__WEBPACK_IMPORTED_MODULE_13__["default"];
+DecoratedModal.Header = _ModalHeader__WEBPACK_IMPORTED_MODULE_17__["default"];
+DecoratedModal.Title = _ModalTitle__WEBPACK_IMPORTED_MODULE_18__["default"];
+DecoratedModal.Footer = _ModalFooter__WEBPACK_IMPORTED_MODULE_16__["default"];
+DecoratedModal.Dialog = _ModalDialog__WEBPACK_IMPORTED_MODULE_15__["default"];
+DecoratedModal.TRANSITION_DURATION = 300;
+DecoratedModal.BACKDROP_TRANSITION_DURATION = 150;
+/* harmony default export */ __webpack_exports__["default"] = (DecoratedModal);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/ModalBody.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/ModalBody.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _createWithBsPrefix__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createWithBsPrefix */ "./node_modules/react-bootstrap/esm/createWithBsPrefix.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(_createWithBsPrefix__WEBPACK_IMPORTED_MODULE_0__["default"])('modal-body'));
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/ModalContext.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/ModalContext.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var ModalContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext({
+  onHide: function onHide() {}
+});
+/* harmony default export */ __webpack_exports__["default"] = (ModalContext);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/ModalDialog.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/ModalDialog.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
+
+
+
+
+
+var ModalDialog = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function (_ref, ref) {
+  var bsPrefix = _ref.bsPrefix,
+      className = _ref.className,
+      centered = _ref.centered,
+      size = _ref.size,
+      children = _ref.children,
+      scrollable = _ref.scrollable,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["bsPrefix", "className", "centered", "size", "children", "scrollable"]);
+
+  bsPrefix = Object(_ThemeProvider__WEBPACK_IMPORTED_MODULE_4__["useBootstrapPrefix"])(bsPrefix, 'modal');
+  var dialogClass = bsPrefix + "-dialog";
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+    ref: ref,
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(dialogClass, className, size && bsPrefix + "-" + size, centered && dialogClass + "-centered", scrollable && dialogClass + "-scrollable")
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: bsPrefix + "-content"
+  }, children));
+});
+ModalDialog.displayName = 'ModalDialog';
+/* harmony default export */ __webpack_exports__["default"] = (ModalDialog);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/ModalFooter.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/ModalFooter.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _createWithBsPrefix__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createWithBsPrefix */ "./node_modules/react-bootstrap/esm/createWithBsPrefix.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(_createWithBsPrefix__WEBPACK_IMPORTED_MODULE_0__["default"])('modal-footer'));
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/ModalHeader.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/ModalHeader.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _restart_hooks_useEventCallback__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @restart/hooks/useEventCallback */ "./node_modules/@restart/hooks/esm/useEventCallback.js");
+/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
+/* harmony import */ var _CloseButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./CloseButton */ "./node_modules/react-bootstrap/esm/CloseButton.js");
+/* harmony import */ var _ModalContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ModalContext */ "./node_modules/react-bootstrap/esm/ModalContext.js");
+
+
+
+
+
+
+
+
+var defaultProps = {
+  closeLabel: 'Close',
+  closeButton: false
+};
+var ModalHeader = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function (_ref, ref) {
+  var bsPrefix = _ref.bsPrefix,
+      closeLabel = _ref.closeLabel,
+      closeButton = _ref.closeButton,
+      onHide = _ref.onHide,
+      className = _ref.className,
+      children = _ref.children,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["bsPrefix", "closeLabel", "closeButton", "onHide", "className", "children"]);
+
+  bsPrefix = Object(_ThemeProvider__WEBPACK_IMPORTED_MODULE_5__["useBootstrapPrefix"])(bsPrefix, 'modal-header');
+  var context = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_ModalContext__WEBPACK_IMPORTED_MODULE_7__["default"]);
+  var handleClick = Object(_restart_hooks_useEventCallback__WEBPACK_IMPORTED_MODULE_4__["default"])(function () {
+    if (context) context.onHide();
+    if (onHide) onHide();
+  });
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    ref: ref
+  }, props, {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, bsPrefix)
+  }), children, closeButton && react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_CloseButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    label: closeLabel,
+    onClick: handleClick
+  }));
+});
+ModalHeader.displayName = 'ModalHeader';
+ModalHeader.defaultProps = defaultProps;
+/* harmony default export */ __webpack_exports__["default"] = (ModalHeader);
+
+/***/ }),
+
+/***/ "./node_modules/react-bootstrap/esm/ModalTitle.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-bootstrap/esm/ModalTitle.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _createWithBsPrefix__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createWithBsPrefix */ "./node_modules/react-bootstrap/esm/createWithBsPrefix.js");
+/* harmony import */ var _divWithClassName__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./divWithClassName */ "./node_modules/react-bootstrap/esm/divWithClassName.js");
+
+
+var DivStyledAsH4 = Object(_divWithClassName__WEBPACK_IMPORTED_MODULE_1__["default"])('h4');
+/* harmony default export */ __webpack_exports__["default"] = (Object(_createWithBsPrefix__WEBPACK_IMPORTED_MODULE_0__["default"])('modal-title', {
+  Component: DivStyledAsH4
+}));
 
 /***/ }),
 
@@ -16809,6 +18385,725 @@ DropdownToggle.propTypes = propTypes;
 
 /***/ }),
 
+/***/ "./node_modules/react-overlays/esm/Modal.js":
+/*!**************************************************!*\
+  !*** ./node_modules/react-overlays/esm/Modal.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
+/* harmony import */ var dom_helpers_activeElement__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dom-helpers/activeElement */ "./node_modules/dom-helpers/esm/activeElement.js");
+/* harmony import */ var dom_helpers_contains__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dom-helpers/contains */ "./node_modules/dom-helpers/esm/contains.js");
+/* harmony import */ var dom_helpers_canUseDOM__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! dom-helpers/canUseDOM */ "./node_modules/dom-helpers/esm/canUseDOM.js");
+/* harmony import */ var dom_helpers_listen__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! dom-helpers/listen */ "./node_modules/dom-helpers/esm/listen.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _ModalManager__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ModalManager */ "./node_modules/react-overlays/esm/ModalManager.js");
+/* harmony import */ var _utils_ownerDocument__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./utils/ownerDocument */ "./node_modules/react-overlays/esm/utils/ownerDocument.js");
+/* harmony import */ var _utils_useWaitForDOMRef__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./utils/useWaitForDOMRef */ "./node_modules/react-overlays/esm/utils/useWaitForDOMRef.js");
+
+
+
+
+
+/* eslint-disable react/prop-types */
+
+
+
+
+
+
+
+
+
+
+var modalManager = new _ModalManager__WEBPACK_IMPORTED_MODULE_11__["default"]();
+
+function omitProps(props, propTypes) {
+  var keys = Object.keys(props);
+  var newProps = {};
+  keys.forEach(function (prop) {
+    if (!Object.prototype.hasOwnProperty.call(propTypes, prop)) {
+      newProps[prop] = props[prop];
+    }
+  });
+  return newProps;
+}
+/**
+ * Love them or hate them, `<Modal />` provides a solid foundation for creating dialogs, lightboxes, or whatever else.
+ * The Modal component renders its `children` node in front of a backdrop component.
+ *
+ * The Modal offers a few helpful features over using just a `<Portal/>` component and some styles:
+ *
+ * - Manages dialog stacking when one-at-a-time just isn't enough.
+ * - Creates a backdrop, for disabling interaction below the modal.
+ * - It properly manages focus; moving to the modal content, and keeping it there until the modal is closed.
+ * - It disables scrolling of the page content while open.
+ * - Adds the appropriate ARIA roles are automatically.
+ * - Easily pluggable animations via a `<Transition/>` component.
+ *
+ * Note that, in the same way the backdrop element prevents users from clicking or interacting
+ * with the page content underneath the Modal, Screen readers also need to be signaled to not to
+ * interact with page content while the Modal is open. To do this, we use a common technique of applying
+ * the `aria-hidden='true'` attribute to the non-Modal elements in the Modal `container`. This means that for
+ * a Modal to be truly modal, it should have a `container` that is _outside_ your app's
+ * React hierarchy (such as the default: document.body).
+ */
+
+
+var Modal =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_3__["default"])(Modal, _React$Component);
+
+  function Modal() {
+    var _this;
+
+    for (var _len = arguments.length, _args = new Array(_len), _key = 0; _key < _len; _key++) {
+      _args[_key] = arguments[_key];
+    }
+
+    _this = _React$Component.call.apply(_React$Component, [this].concat(_args)) || this;
+    _this.state = {
+      exited: !_this.props.show
+    };
+
+    _this.onShow = function () {
+      var _this$props = _this.props,
+          container = _this$props.container,
+          containerClassName = _this$props.containerClassName,
+          manager = _this$props.manager,
+          onShow = _this$props.onShow;
+      manager.add(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), container, containerClassName);
+      _this.removeKeydownListener = Object(dom_helpers_listen__WEBPACK_IMPORTED_MODULE_7__["default"])(document, 'keydown', _this.handleDocumentKeyDown);
+      _this.removeFocusListener = Object(dom_helpers_listen__WEBPACK_IMPORTED_MODULE_7__["default"])(document, 'focus', // the timeout is necessary b/c this will run before the new modal is mounted
+      // and so steals focus from it
+      function () {
+        return setTimeout(_this.enforceFocus);
+      }, true);
+
+      if (onShow) {
+        onShow();
+      } // autofocus after onShow, to not trigger a focus event for previous
+      // modals before this one is shown.
+
+
+      _this.autoFocus();
+    };
+
+    _this.onHide = function () {
+      _this.props.manager.remove(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this));
+
+      _this.removeKeydownListener();
+
+      _this.removeFocusListener();
+
+      if (_this.props.restoreFocus) {
+        _this.restoreLastFocus();
+      }
+    };
+
+    _this.setDialogRef = function (ref) {
+      _this.dialog = ref;
+    };
+
+    _this.setBackdropRef = function (ref) {
+      _this.backdrop = ref && react_dom__WEBPACK_IMPORTED_MODULE_10___default.a.findDOMNode(ref);
+    };
+
+    _this.handleHidden = function () {
+      _this.setState({
+        exited: true
+      });
+
+      _this.onHide();
+
+      if (_this.props.onExited) {
+        var _this$props2;
+
+        (_this$props2 = _this.props).onExited.apply(_this$props2, arguments);
+      }
+    };
+
+    _this.handleBackdropClick = function (e) {
+      if (e.target !== e.currentTarget) {
+        return;
+      }
+
+      if (_this.props.onBackdropClick) {
+        _this.props.onBackdropClick(e);
+      }
+
+      if (_this.props.backdrop === true) {
+        _this.props.onHide();
+      }
+    };
+
+    _this.handleDocumentKeyDown = function (e) {
+      if (_this.props.keyboard && e.keyCode === 27 && _this.isTopModal()) {
+        if (_this.props.onEscapeKeyDown) {
+          _this.props.onEscapeKeyDown(e);
+        }
+
+        _this.props.onHide();
+      }
+    };
+
+    _this.enforceFocus = function () {
+      if (!_this.props.enforceFocus || !_this._isMounted || !_this.isTopModal()) {
+        return;
+      }
+
+      var currentActiveElement = Object(dom_helpers_activeElement__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_utils_ownerDocument__WEBPACK_IMPORTED_MODULE_12__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this)));
+
+      if (_this.dialog && !Object(dom_helpers_contains__WEBPACK_IMPORTED_MODULE_5__["default"])(_this.dialog, currentActiveElement)) {
+        _this.dialog.focus();
+      }
+    };
+
+    _this.renderBackdrop = function () {
+      var _this$props3 = _this.props,
+          renderBackdrop = _this$props3.renderBackdrop,
+          Transition = _this$props3.backdropTransition;
+      var backdrop = renderBackdrop({
+        ref: _this.setBackdropRef,
+        onClick: _this.handleBackdropClick
+      });
+
+      if (Transition) {
+        backdrop = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Transition, {
+          appear: true,
+          "in": _this.props.show
+        }, backdrop);
+      }
+
+      return backdrop;
+    };
+
+    return _this;
+  }
+
+  Modal.getDerivedStateFromProps = function getDerivedStateFromProps(nextProps) {
+    if (nextProps.show) {
+      return {
+        exited: false
+      };
+    }
+
+    if (!nextProps.transition) {
+      // Otherwise let handleHidden take care of marking exited.
+      return {
+        exited: true
+      };
+    }
+
+    return null;
+  };
+
+  var _proto = Modal.prototype;
+
+  _proto.componentDidMount = function componentDidMount() {
+    this._isMounted = true;
+
+    if (this.props.show) {
+      this.onShow();
+    }
+  };
+
+  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
+    var transition = this.props.transition;
+
+    if (prevProps.show && !this.props.show && !transition) {
+      // Otherwise handleHidden will call this.
+      this.onHide();
+    } else if (!prevProps.show && this.props.show) {
+      this.onShow();
+    }
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    var _this$props4 = this.props,
+        show = _this$props4.show,
+        transition = _this$props4.transition;
+    this._isMounted = false;
+
+    if (show || transition && !this.state.exited) {
+      this.onHide();
+    }
+  };
+
+  _proto.getSnapshotBeforeUpdate = function getSnapshotBeforeUpdate(prevProps) {
+    if (dom_helpers_canUseDOM__WEBPACK_IMPORTED_MODULE_6__["default"] && !prevProps.show && this.props.show) {
+      this.lastFocus = Object(dom_helpers_activeElement__WEBPACK_IMPORTED_MODULE_4__["default"])();
+    }
+
+    return null;
+  };
+
+  _proto.restoreLastFocus = function restoreLastFocus() {
+    // Support: <=IE11 doesn't support `focus()` on svg elements (RB: #917)
+    if (this.lastFocus && this.lastFocus.focus) {
+      this.lastFocus.focus(this.props.restoreFocusOptions);
+      this.lastFocus = null;
+    }
+  };
+
+  _proto.autoFocus = function autoFocus() {
+    if (!this.props.autoFocus) return;
+    var currentActiveElement = Object(dom_helpers_activeElement__WEBPACK_IMPORTED_MODULE_4__["default"])(Object(_utils_ownerDocument__WEBPACK_IMPORTED_MODULE_12__["default"])(this));
+
+    if (this.dialog && !Object(dom_helpers_contains__WEBPACK_IMPORTED_MODULE_5__["default"])(this.dialog, currentActiveElement)) {
+      this.lastFocus = currentActiveElement;
+      this.dialog.focus();
+    }
+  };
+
+  _proto.isTopModal = function isTopModal() {
+    return this.props.manager.isTopModal(this);
+  };
+
+  _proto.render = function render() {
+    var _this$props5 = this.props,
+        show = _this$props5.show,
+        container = _this$props5.container,
+        children = _this$props5.children,
+        renderDialog = _this$props5.renderDialog,
+        _this$props5$role = _this$props5.role,
+        role = _this$props5$role === void 0 ? 'dialog' : _this$props5$role,
+        Transition = _this$props5.transition,
+        backdrop = _this$props5.backdrop,
+        className = _this$props5.className,
+        style = _this$props5.style,
+        onExit = _this$props5.onExit,
+        onExiting = _this$props5.onExiting,
+        onEnter = _this$props5.onEnter,
+        onEntering = _this$props5.onEntering,
+        onEntered = _this$props5.onEntered,
+        props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_this$props5, ["show", "container", "children", "renderDialog", "role", "transition", "backdrop", "className", "style", "onExit", "onExiting", "onEnter", "onEntering", "onEntered"]);
+
+    if (!(show || Transition && !this.state.exited)) {
+      return null;
+    }
+
+    var dialogProps = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+      role: role,
+      ref: this.setDialogRef,
+      // apparently only works on the dialog role element
+      'aria-modal': role === 'dialog' ? true : undefined
+    }, omitProps(props, Modal.propTypes), {
+      style: style,
+      className: className,
+      tabIndex: '-1'
+    });
+
+    var dialog = renderDialog ? renderDialog(dialogProps) : react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", dialogProps, react__WEBPACK_IMPORTED_MODULE_9___default.a.cloneElement(children, {
+      role: 'document'
+    }));
+
+    if (Transition) {
+      dialog = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Transition, {
+        appear: true,
+        unmountOnExit: true,
+        "in": show,
+        onExit: onExit,
+        onExiting: onExiting,
+        onExited: this.handleHidden,
+        onEnter: onEnter,
+        onEntering: onEntering,
+        onEntered: onEntered
+      }, dialog);
+    }
+
+    return react_dom__WEBPACK_IMPORTED_MODULE_10___default.a.createPortal(react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_9___default.a.Fragment, null, backdrop && this.renderBackdrop(), dialog), container);
+  };
+
+  return Modal;
+}(react__WEBPACK_IMPORTED_MODULE_9___default.a.Component); // dumb HOC for the sake react-docgen
+
+
+Modal.propTypes = {
+  /**
+   * Set the visibility of the Modal
+   */
+  show: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.bool,
+
+  /**
+   * A DOM element, a `ref` to an element, or function that returns either. The Modal is appended to it's `container` element.
+   *
+   * For the sake of assistive technologies, the container should usually be the document body, so that the rest of the
+   * page content can be placed behind a virtual backdrop as well as a visual one.
+   */
+  container: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.any,
+
+  /**
+   * A callback fired when the Modal is opening.
+   */
+  onShow: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * A callback fired when either the backdrop is clicked, or the escape key is pressed.
+   *
+   * The `onHide` callback only signals intent from the Modal,
+   * you must actually set the `show` prop to `false` for the Modal to close.
+   */
+  onHide: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * Include a backdrop component.
+   */
+  backdrop: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.bool, prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.oneOf(['static'])]),
+
+  /**
+   * A function that returns the dialog component. Useful for custom
+   * rendering. **Note:** the component should make sure to apply the provided ref.
+   *
+   * ```js
+   *  renderDialog={props => <MyDialog {...props} />}
+   * ```
+   */
+  renderDialog: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * A function that returns a backdrop component. Useful for custom
+   * backdrop rendering.
+   *
+   * ```js
+   *  renderBackdrop={props => <MyBackdrop {...props} />}
+   * ```
+   */
+  renderBackdrop: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * A callback fired when the escape key, if specified in `keyboard`, is pressed.
+   */
+  onEscapeKeyDown: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * A callback fired when the backdrop, if specified, is clicked.
+   */
+  onBackdropClick: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * A css class or set of classes applied to the modal container when the modal is open,
+   * and removed when it is closed.
+   */
+  containerClassName: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.string,
+
+  /**
+   * Close the modal when escape key is pressed
+   */
+  keyboard: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.bool,
+
+  /**
+   * A `react-transition-group@2.0.0` `<Transition/>` component used
+   * to control animations for the dialog component.
+   */
+  transition: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.elementType,
+
+  /**
+   * A `react-transition-group@2.0.0` `<Transition/>` component used
+   * to control animations for the backdrop components.
+   */
+  backdropTransition: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.elementType,
+
+  /**
+   * When `true` The modal will automatically shift focus to itself when it opens, and
+   * replace it to the last focused element when it closes. This also
+   * works correctly with any Modal children that have the `autoFocus` prop.
+   *
+   * Generally this should never be set to `false` as it makes the Modal less
+   * accessible to assistive technologies, like screen readers.
+   */
+  autoFocus: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.bool,
+
+  /**
+   * When `true` The modal will prevent focus from leaving the Modal while open.
+   *
+   * Generally this should never be set to `false` as it makes the Modal less
+   * accessible to assistive technologies, like screen readers.
+   */
+  enforceFocus: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.bool,
+
+  /**
+   * When `true` The modal will restore focus to previously focused element once
+   * modal is hidden
+   */
+  restoreFocus: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.bool,
+
+  /**
+   * Options passed to focus function when `restoreFocus` is set to `true`
+   *
+   * @link  https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus#Parameters
+   */
+  restoreFocusOptions: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.shape({
+    preventScroll: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.bool
+  }),
+
+  /**
+   * Callback fired before the Modal transitions in
+   */
+  onEnter: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * Callback fired as the Modal begins to transition in
+   */
+  onEntering: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * Callback fired after the Modal finishes transitioning in
+   */
+  onEntered: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * Callback fired right before the Modal transitions out
+   */
+  onExit: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * Callback fired as the Modal begins to transition out
+   */
+  onExiting: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * Callback fired after the Modal finishes transitioning out
+   */
+  onExited: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.func,
+
+  /**
+   * A ModalManager instance used to track and manage the state of open
+   * Modals. Useful when customizing how modals interact within a container
+   */
+  manager: prop_types__WEBPACK_IMPORTED_MODULE_8___default.a.object.isRequired
+};
+Modal.defaultProps = {
+  show: false,
+  role: 'dialog',
+  backdrop: true,
+  keyboard: true,
+  autoFocus: true,
+  enforceFocus: true,
+  restoreFocus: true,
+  onHide: function onHide() {},
+  manager: modalManager,
+  renderBackdrop: function renderBackdrop(props) {
+    return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", props);
+  }
+};
+
+function forwardRef(Component) {
+  // eslint-disable-next-line react/display-name
+  var ModalWithContainer = react__WEBPACK_IMPORTED_MODULE_9___default.a.forwardRef(function (props, ref) {
+    var resolved = Object(_utils_useWaitForDOMRef__WEBPACK_IMPORTED_MODULE_13__["default"])(props.container);
+    return resolved ? react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+      ref: ref,
+      container: resolved
+    })) : null;
+  });
+  ModalWithContainer.Manager = _ModalManager__WEBPACK_IMPORTED_MODULE_11__["default"];
+  ModalWithContainer._Inner = Component;
+  return ModalWithContainer;
+}
+
+var ModalWithContainer = forwardRef(Modal);
+ModalWithContainer.Manager = _ModalManager__WEBPACK_IMPORTED_MODULE_11__["default"];
+/* harmony default export */ __webpack_exports__["default"] = (ModalWithContainer);
+
+/***/ }),
+
+/***/ "./node_modules/react-overlays/esm/ModalManager.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-overlays/esm/ModalManager.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var dom_helpers_addClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! dom-helpers/addClass */ "./node_modules/dom-helpers/esm/addClass.js");
+/* harmony import */ var dom_helpers_removeClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dom-helpers/removeClass */ "./node_modules/dom-helpers/esm/removeClass.js");
+/* harmony import */ var dom_helpers_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! dom-helpers/css */ "./node_modules/dom-helpers/esm/css.js");
+/* harmony import */ var dom_helpers_scrollbarSize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dom-helpers/scrollbarSize */ "./node_modules/dom-helpers/esm/scrollbarSize.js");
+/* harmony import */ var _utils_isOverflowing__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils/isOverflowing */ "./node_modules/react-overlays/esm/utils/isOverflowing.js");
+/* harmony import */ var _utils_manageAriaHidden__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils/manageAriaHidden */ "./node_modules/react-overlays/esm/utils/manageAriaHidden.js");
+
+
+
+
+
+
+
+function findIndexOf(arr, cb) {
+  var idx = -1;
+  arr.some(function (d, i) {
+    if (cb(d, i)) {
+      idx = i;
+      return true;
+    }
+
+    return false;
+  });
+  return idx;
+}
+/**
+ * Proper state management for containers and the modals in those containers.
+ *
+ * @internal Used by the Modal to ensure proper styling of containers.
+ */
+
+
+var ModalManager =
+/*#__PURE__*/
+function () {
+  function ModalManager(_temp) {
+    var _ref = _temp === void 0 ? {} : _temp,
+        _ref$hideSiblingNodes = _ref.hideSiblingNodes,
+        hideSiblingNodes = _ref$hideSiblingNodes === void 0 ? true : _ref$hideSiblingNodes,
+        _ref$handleContainerO = _ref.handleContainerOverflow,
+        handleContainerOverflow = _ref$handleContainerO === void 0 ? true : _ref$handleContainerO;
+
+    this.hideSiblingNodes = hideSiblingNodes;
+    this.handleContainerOverflow = handleContainerOverflow;
+    this.modals = [];
+    this.containers = [];
+    this.data = [];
+    this.scrollbarSize = Object(dom_helpers_scrollbarSize__WEBPACK_IMPORTED_MODULE_3__["default"])();
+  }
+
+  var _proto = ModalManager.prototype;
+
+  _proto.isContainerOverflowing = function isContainerOverflowing(modal) {
+    var data = this.data[this.containerIndexFromModal(modal)];
+    return data && data.overflowing;
+  };
+
+  _proto.containerIndexFromModal = function containerIndexFromModal(modal) {
+    return findIndexOf(this.data, function (d) {
+      return d.modals.indexOf(modal) !== -1;
+    });
+  };
+
+  _proto.setContainerStyle = function setContainerStyle(containerState, container) {
+    var style = {
+      overflow: 'hidden'
+    }; // we are only interested in the actual `style` here
+    // because we will override it
+
+    containerState.style = {
+      overflow: container.style.overflow,
+      paddingRight: container.style.paddingRight
+    };
+
+    if (containerState.overflowing) {
+      // use computed style, here to get the real padding
+      // to add our scrollbar width
+      style.paddingRight = parseInt(Object(dom_helpers_css__WEBPACK_IMPORTED_MODULE_2__["default"])(container, 'paddingRight') || 0, 10) + this.scrollbarSize + "px";
+    }
+
+    Object(dom_helpers_css__WEBPACK_IMPORTED_MODULE_2__["default"])(container, style);
+  };
+
+  _proto.removeContainerStyle = function removeContainerStyle(containerState, container) {
+    var style = containerState.style;
+    Object.keys(style).forEach(function (key) {
+      container.style[key] = style[key];
+    });
+  };
+
+  _proto.add = function add(modal, container, className) {
+    var modalIdx = this.modals.indexOf(modal);
+    var containerIdx = this.containers.indexOf(container);
+
+    if (modalIdx !== -1) {
+      return modalIdx;
+    }
+
+    modalIdx = this.modals.length;
+    this.modals.push(modal);
+
+    if (this.hideSiblingNodes) {
+      Object(_utils_manageAriaHidden__WEBPACK_IMPORTED_MODULE_5__["hideSiblings"])(container, modal);
+    }
+
+    if (containerIdx !== -1) {
+      this.data[containerIdx].modals.push(modal);
+      return modalIdx;
+    }
+
+    var data = {
+      modals: [modal],
+      // right now only the first modal of a container will have its classes applied
+      classes: className ? className.split(/\s+/) : [],
+      overflowing: Object(_utils_isOverflowing__WEBPACK_IMPORTED_MODULE_4__["default"])(container)
+    };
+
+    if (this.handleContainerOverflow) {
+      this.setContainerStyle(data, container);
+    }
+
+    data.classes.forEach(dom_helpers_addClass__WEBPACK_IMPORTED_MODULE_0__["default"].bind(null, container));
+    this.containers.push(container);
+    this.data.push(data);
+    return modalIdx;
+  };
+
+  _proto.remove = function remove(modal) {
+    var modalIdx = this.modals.indexOf(modal);
+
+    if (modalIdx === -1) {
+      return;
+    }
+
+    var containerIdx = this.containerIndexFromModal(modal);
+    var data = this.data[containerIdx];
+    var container = this.containers[containerIdx];
+    data.modals.splice(data.modals.indexOf(modal), 1);
+    this.modals.splice(modalIdx, 1); // if that was the last modal in a container,
+    // clean up the container
+
+    if (data.modals.length === 0) {
+      data.classes.forEach(dom_helpers_removeClass__WEBPACK_IMPORTED_MODULE_1__["default"].bind(null, container));
+
+      if (this.handleContainerOverflow) {
+        this.removeContainerStyle(data, container);
+      }
+
+      if (this.hideSiblingNodes) {
+        Object(_utils_manageAriaHidden__WEBPACK_IMPORTED_MODULE_5__["showSiblings"])(container, modal);
+      }
+
+      this.containers.splice(containerIdx, 1);
+      this.data.splice(containerIdx, 1);
+    } else if (this.hideSiblingNodes) {
+      // otherwise make sure the next top modal is visible to a SR
+      var _data$modals = data.modals[data.modals.length - 1],
+          backdrop = _data$modals.backdrop,
+          dialog = _data$modals.dialog;
+      Object(_utils_manageAriaHidden__WEBPACK_IMPORTED_MODULE_5__["ariaHidden"])(false, dialog);
+      Object(_utils_manageAriaHidden__WEBPACK_IMPORTED_MODULE_5__["ariaHidden"])(false, backdrop);
+    }
+  };
+
+  _proto.isTopModal = function isTopModal(modal) {
+    return !!this.modals.length && this.modals[this.modals.length - 1] === modal;
+  };
+
+  return ModalManager;
+}();
+
+/* harmony default export */ __webpack_exports__["default"] = (ModalManager);
+
+/***/ }),
+
 /***/ "./node_modules/react-overlays/esm/usePopper.js":
 /*!******************************************************!*\
   !*** ./node_modules/react-overlays/esm/usePopper.js ***!
@@ -17037,6 +19332,167 @@ function useRootClose(ref, onRootClose, _temp) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (useRootClose);
+
+/***/ }),
+
+/***/ "./node_modules/react-overlays/esm/utils/isOverflowing.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-overlays/esm/utils/isOverflowing.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isOverflowing; });
+/* harmony import */ var dom_helpers_isWindow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! dom-helpers/isWindow */ "./node_modules/dom-helpers/esm/isWindow.js");
+/* harmony import */ var dom_helpers_ownerDocument__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dom-helpers/ownerDocument */ "./node_modules/dom-helpers/esm/ownerDocument.js");
+
+
+
+function isBody(node) {
+  return node && node.tagName.toLowerCase() === 'body';
+}
+
+function bodyIsOverflowing(node) {
+  var doc = Object(dom_helpers_ownerDocument__WEBPACK_IMPORTED_MODULE_1__["default"])(node);
+  var win = Object(dom_helpers_isWindow__WEBPACK_IMPORTED_MODULE_0__["default"])(doc);
+  return doc.body.clientWidth < win.innerWidth;
+}
+
+function isOverflowing(container) {
+  var win = Object(dom_helpers_isWindow__WEBPACK_IMPORTED_MODULE_0__["default"])(container);
+  return win || isBody(container) ? bodyIsOverflowing(container) : container.scrollHeight > container.clientHeight;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-overlays/esm/utils/manageAriaHidden.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-overlays/esm/utils/manageAriaHidden.js ***!
+  \*******************************************************************/
+/*! exports provided: ariaHidden, hideSiblings, showSiblings */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ariaHidden", function() { return ariaHidden; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hideSiblings", function() { return hideSiblings; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showSiblings", function() { return showSiblings; });
+var BLACKLIST = ['template', 'script', 'style'];
+
+var isHidable = function isHidable(_ref) {
+  var nodeType = _ref.nodeType,
+      tagName = _ref.tagName;
+  return nodeType === 1 && BLACKLIST.indexOf(tagName.toLowerCase()) === -1;
+};
+
+var siblings = function siblings(container, exclude, cb) {
+  exclude = [].concat(exclude);
+  [].forEach.call(container.children, function (node) {
+    if (exclude.indexOf(node) === -1 && isHidable(node)) {
+      cb(node);
+    }
+  });
+};
+
+function ariaHidden(show, node) {
+  if (!node) return;
+
+  if (show) {
+    node.setAttribute('aria-hidden', 'true');
+  } else {
+    node.removeAttribute('aria-hidden');
+  }
+}
+function hideSiblings(container, _ref2) {
+  var dialog = _ref2.dialog,
+      backdrop = _ref2.backdrop;
+  siblings(container, [dialog, backdrop], function (node) {
+    return ariaHidden(true, node);
+  });
+}
+function showSiblings(container, _ref3) {
+  var dialog = _ref3.dialog,
+      backdrop = _ref3.backdrop;
+  siblings(container, [dialog, backdrop], function (node) {
+    return ariaHidden(false, node);
+  });
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-overlays/esm/utils/ownerDocument.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-overlays/esm/utils/ownerDocument.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var dom_helpers_ownerDocument__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! dom-helpers/ownerDocument */ "./node_modules/dom-helpers/esm/ownerDocument.js");
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function (componentOrElement) {
+  return Object(dom_helpers_ownerDocument__WEBPACK_IMPORTED_MODULE_1__["default"])(react_dom__WEBPACK_IMPORTED_MODULE_0___default.a.findDOMNode(componentOrElement));
+});
+
+/***/ }),
+
+/***/ "./node_modules/react-overlays/esm/utils/useWaitForDOMRef.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-overlays/esm/utils/useWaitForDOMRef.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return useWaitForDOMRef; });
+/* harmony import */ var dom_helpers_ownerDocument__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! dom-helpers/ownerDocument */ "./node_modules/dom-helpers/esm/ownerDocument.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var resolveRef = function resolveRef(ref) {
+  if (typeof document === 'undefined') return undefined;
+  if (ref == null) return Object(dom_helpers_ownerDocument__WEBPACK_IMPORTED_MODULE_0__["default"])().body;
+  if (typeof ref === 'function') ref = ref();
+  if (ref && ref.current) ref = ref.current;
+  if (ref && ref.nodeType) return ref;
+  return null;
+};
+
+function useWaitForDOMRef(ref, onResolved) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(function () {
+    return resolveRef(ref);
+  }),
+      resolvedRef = _useState[0],
+      setRef = _useState[1];
+
+  if (!resolvedRef) {
+    var earlyRef = resolveRef(ref);
+    if (earlyRef) setRef(earlyRef);
+  }
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    if (onResolved && resolvedRef) {
+      onResolved(resolvedRef);
+    }
+  }, [onResolved, resolvedRef]);
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    var nextRef = resolveRef(ref);
+
+    if (nextRef !== resolvedRef) {
+      setRef(nextRef);
+    }
+  }, [ref, resolvedRef]);
+  return resolvedRef;
+}
 
 /***/ }),
 
@@ -19650,6 +22106,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _components_HomeFaqs__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/HomeFaqs */ "./components/HomeFaqs.js");
+/* harmony import */ var _components_VideoModal__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/VideoModal */ "./components/VideoModal.js");
 var _jsxFileName = "/Users/deepakkumar/Documents/cashfree-next-web/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -19663,7 +22121,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
- // import Slider from 'infinite-react-carousel';
+
+
 
 
 
@@ -19736,7 +22195,7 @@ function BannerClients(props) {
     itemClass: "client_logo_item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 52
     },
     __self: this
   }, clients().map(function (slide) {
@@ -19746,7 +22205,7 @@ function BannerClients(props) {
       alt: slide.alt,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61
+        lineNumber: 63
       },
       __self: this
     });
@@ -19757,26 +22216,26 @@ var Banner = function Banner() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 75
     },
     __self: this
   }), __jsx("section", {
     className: "hero_section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 76
     },
     __self: this
   }, __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 77
     },
     __self: this
   }, __jsx(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 78
     },
     __self: this
   }, __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -19784,57 +22243,57 @@ var Banner = function Banner() {
     xs: 12,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 79
     },
     __self: this
   }, __jsx("div", {
     className: "jsx-1785990090" + " " + "banner_cont",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 80
     },
     __self: this
   }, __jsx("h1", {
     className: "jsx-1785990090" + " " + "banner_head",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 81
     },
     __self: this
   }, "A Complete Payments Toolkit for India"), __jsx("p", {
     className: "jsx-1785990090",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 84
     },
     __self: this
   }, "The fastest and easiest way to collect and disburse payments for growing businesses")), __jsx(react_bootstrap_ButtonToolbar__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 86
     },
     __self: this
   }, __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
     variant: "outline-light mr-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 87
     },
     __self: this
   }, "Create Account"), __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
     variant: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 88
     },
     __self: this
   }, "Contact Sales")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1785990090",
     __self: this
-  }, "h1.jsx-1785990090{color:white;}p.jsx-1785990090{font-size:22px;font-weight:500;padding:24px 0;color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kZWVwYWtrdW1hci9Eb2N1bWVudHMvY2FzaGZyZWUtbmV4dC13ZWIvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBdUZtQixBQUcwQixBQUdJLFlBRmpCLEdBR2tCLGdCQUNELGVBQ0osWUFDYiIsImZpbGUiOiIvVXNlcnMvZGVlcGFra3VtYXIvRG9jdW1lbnRzL2Nhc2hmcmVlLW5leHQtd2ViL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuaW1wb3J0IEhlYWRlciBmcm9tICcuLi9jb21wb25lbnRzL0hlYWRlcidcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vY29tcG9uZW50cy9Gb290ZXInXG5pbXBvcnQgSW1hZ2UgZnJvbSAncmVhY3QtYm9vdHN0cmFwL0ltYWdlJ1xuaW1wb3J0IEJ1dHRvbiBmcm9tICdyZWFjdC1ib290c3RyYXAvQnV0dG9uJ1xuaW1wb3J0IEJ1dHRvblRvb2xiYXIgZnJvbSAncmVhY3QtYm9vdHN0cmFwL0J1dHRvblRvb2xiYXInXG5pbXBvcnQgQ29udGFpbmVyIGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Db250YWluZXInO1xuaW1wb3J0ICcuLi9zdHlsZXMvY3VzdG9tLXRoZW1lLnNjc3MnO1xuaW1wb3J0ICdyZWFjdC1tdWx0aS1jYXJvdXNlbC9saWIvc3R5bGVzLmNzcyc7XG5pbXBvcnQgQ2Fyb3VzZWwgZnJvbSAncmVhY3QtbXVsdGktY2Fyb3VzZWwnO1xuLy8gaW1wb3J0IFNsaWRlciBmcm9tICdpbmZpbml0ZS1yZWFjdC1jYXJvdXNlbCc7XG5pbXBvcnQgUm93IGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Sb3cnXG5pbXBvcnQgQ29sIGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Db2wnXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5cbmZ1bmN0aW9uIGNsaWVudHMoKSB7XG4gIHJldHVybiBbXG4gICAgeyBzcmM6Jy9jbGllbnRzL2NyZWQucG5nJywgYWx0OidDcmVkJyB9LFxuICAgIHsgc3JjOicvY2xpZW50cy9kZWxoaWJlcnkucG5nJywgYWx0OidkZWxoaWJlcnknIH0sXG4gICAgeyBzcmM6Jy9jbGllbnRzL2R1bnpvLnBuZycsIGFsdDonZHVuem8nIH0sXG4gICAgeyBzcmM6Jy9jbGllbnRzL2V4eG8ucG5nJywgYWx0OidleHhvJyB9LFxuICAgIHsgc3JjOicvY2xpZW50cy94aWFvbWkucG5nJywgYWx0Oid4aWFvbWknIH0sXG4gICAgeyBzcmM6Jy9jbGllbnRzL3pvbWF0by5wbmcnLCBhbHQ6J3pvbWF0bycgfVxuICBdO1xufVxuXG5jb25zdCByZXNwb25zaXZlID0ge1xuICBzdXBlckxhcmdlRGVza3RvcDoge1xuICAgIC8vIHRoZSBuYW1pbmcgY2FuIGJlIGFueSwgZGVwZW5kcyBvbiB5b3UuXG4gICAgYnJlYWtwb2ludDogeyBtYXg6IDQwMDAsIG1pbjogMzAwMCB9LFxuICAgIGl0ZW1zOiA2LFxuICB9LFxuICBkZXNrdG9wOiB7XG4gICAgYnJlYWtwb2ludDogeyBtYXg6IDMwMDAsIG1pbjogMTAyNCB9LFxuICAgIGl0ZW1zOiA2LFxuICB9LFxuICB0YWJsZXQ6IHtcbiAgICBicmVha3BvaW50OiB7IG1heDogMTAyNCwgbWluOiA3NjggfSxcbiAgICBpdGVtczogMyxcbiAgfSxcbiAgbW9iaWxlOiB7XG4gICAgYnJlYWtwb2ludDogeyBtYXg6IDc2NywgbWluOiAzMjAgfSxcbiAgICBpdGVtczogMixcbiAgfSxcbn07XG5cbmZ1bmN0aW9uIEJhbm5lckNsaWVudHMocHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8Q2Fyb3VzZWwgcmVzcG9uc2l2ZT17cmVzcG9uc2l2ZX1cbiAgICAgYXJyb3dzPXtmYWxzZX1cbiAgICAgaW5maW5pdGU9e2ZhbHNlfVxuICAgICBjZW50ZXJNb2RlPXt0cnVlfVxuICAgICBzbGlkZXNUb1NsaWRlPXsxfVxuICAgICBhdXRvUGxheT17cHJvcHMuZGV2aWNlVHlwZSAhPT0gXCJkZXNrdG9wXCIgPyB0cnVlIDogZmFsc2V9XG4gICAgIHNzcj17dHJ1ZX1cbiAgICAgcmVtb3ZlQXJyb3dPbkRldmljZVR5cGU9e1tcImRlc2t0b3BcIiwgXCJzdXBlckxhcmdlRGVza3RvcFwiXX1cbiAgICAgaXRlbUNsYXNzPVwiY2xpZW50X2xvZ29faXRlbVwiXG4gICAgPlxuICAgICAge2NsaWVudHMoKS5tYXAoc2xpZGUgPT4gKFxuICAgICAgICAgICAgICAgIDxpbWdcbiAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJkLWJsb2NrIHctMTAwXCJcbiAgICAgICAgICAgICAgICBzcmM9e3NsaWRlLnNyY31cbiAgICAgICAgICAgICAgICBhbHQ9e3NsaWRlLmFsdH1cbiAgICAgICAgICAgICAgICAvPiAgICAgICAgXG4gICAgICAgICAgICAgICkpfSAgXG4gICAgPC9DYXJvdXNlbD5cbiAgKTtcbn1cblxuY29uc3QgQmFubmVyID0gKCkgPT4gKFxuICA8PlxuICAgPEhlYWRlci8+XG4gIDxzZWN0aW9uIGNsYXNzTmFtZT1cImhlcm9fc2VjdGlvblwiPlxuICAgIDxDb250YWluZXI+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXs2fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJhbm5lcl9jb250XCI+XG4gICAgICAgIDxoMSBjbGFzc05hbWU9XCJiYW5uZXJfaGVhZFwiPlxuICAgICAgICBBIENvbXBsZXRlIFBheW1lbnRzIFRvb2xraXQgZm9yIEluZGlhXG4gICAgICAgIDwvaDE+XG4gICAgICAgIDxwPlRoZSBmYXN0ZXN0IGFuZCBlYXNpZXN0IHdheSB0byBjb2xsZWN0IGFuZCBkaXNidXJzZSBwYXltZW50cyBmb3IgZ3Jvd2luZyBidXNpbmVzc2VzPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPEJ1dHRvblRvb2xiYXI+XG4gICAgICAgIDxCdXR0b24gdmFyaWFudD1cIm91dGxpbmUtbGlnaHQgbXItM1wiPkNyZWF0ZSBBY2NvdW50PC9CdXR0b24+XG4gICAgICAgIDxCdXR0b24gdmFyaWFudD1cInByaW1hcnlcIj5Db250YWN0IFNhbGVzPC9CdXR0b24+XG4gICAgICAgPC9CdXR0b25Ub29sYmFyPlxuICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgIGgxe1xuICAgICAgICAgICAgICBjb2xvcjp3aGl0ZTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIHB7XG4gICAgICAgICAgICAgIGZvbnQtc2l6ZTogMjJweDtcbiAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICAgICAgICAgICAgcGFkZGluZzogMjRweCAwO1xuICAgICAgICAgICAgICBjb2xvcjp3aGl0ZTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmFubmVyX3NsaWRlIHRleHQtY2VudGVyXCI+XG4gICAgICAgICAgPGg0Pk91ciBjdXN0b21lcnMgaW5jbHVkZTwvaDQ+XG4gICAgICAgICAgPEJhbm5lckNsaWVudHMvPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICAgXG4gICAgPC9Db250YWluZXI+XG4gICAgXG4gIDwvc2VjdGlvbj5cbiAgPC8+XG4pXG5cbmNvbnN0IENvbXBldGl0aW9uID0gKCkgPT4gKFxuICA8c2VjdGlvbiBjbGFzc05hbWU9XCJwYWdlX3NlY3Rpb24gbGlnaHRfYmdcIj5cbiAgICA8Q29udGFpbmVyPlxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXJcIj5cbiAgICAgICAgPGgyIGNsYXNzTmFtZT1cInBhZ2VfaGVhZFwiPlxuICAgICAgICBTdGF5IEFoZWFkIG9mIENvbXBldGl0aW9uIHdpdGggQ2FzaGZyZWVcbiAgICAgICAgPC9oMj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgbWQ9ezN9ICBzbT17NH0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9kdWN0X2JveCB0ZXh0LWNlbnRlciB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL2luc3RhbnQtcmVmdW5kcy5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aWxlX2hlYWRcIj5JbnN0YW50IFJlZnVuZDwvaDM+XG4gICAgICAgIDxwPkZvciBvbmxpbmUgcGF5bWVudHMgYW5kIGNhc2ggb24gZGVsaXZlcnkgcGF5bWVudHMuIEluZGVwZW5kZW50IG9mIGJhbmtpbmcgaG91cnMuPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICAgIDxDb2wgbWQ9ezN9ICBzbT17NH0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9kdWN0X2JveCB0ZXh0LWNlbnRlciB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL2luc3RhbnQtYWNjb3VudC12ZXJpZmljYXRpb24ucG5nXCIgZmx1aWQvPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGlsZV9oZWFkXCI+T24tZGVtYW5kIFBheW91dHM8L2gzPlxuICAgICAgICA8cD5EaXNidXJzZSBidWxrIHBheW1lbnRzIGluc3RhbnRseS4gU2ltcGxlciBhbmQgZmFzdGVyIHRoYW4gYmFua3MuPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICAgIDxDb2wgbWQ9ezN9ICBzbT17NH0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9kdWN0X2JveCB0ZXh0LWNlbnRlciB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL29uZGVtYW5kLXBheW91dHMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGlsZV9oZWFkXCI+QmFuayBBY2NvdW50IFZlcmlmaWNhdGlvbjwvaDM+XG4gICAgICAgIDxwPktub3cgeW91ciBjdXN0b21lcjogVmVyaWZ5IGJhbmsgYWNjb3VudCBhbmQgaG9sZGVyIG5hbWUgaW5zdGFudGx5IGJlZm9yZSBzZW5kaW5nIG1vbmV5LjwvcD5cbiAgICAgICAgey8qIDxMaW5rIGhyZWY9XCIvXCIvPiAqL31cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvZHVjdF9ib3ggdGV4dC1jZW50ZXIgdy0xMDBcIj5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9wcm9kdWN0cy9yZWN1cnJpbmctcGF5bWVudHMucG5nXCIgZmx1aWQgLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPlJlY3VycmluZyBQYXltZW50czwvaDM+XG4gICAgICAgIDxwPlVubG9jayBidXNpbmVzcyBvcHBvcnR1bml0aWVzIHdpdGggc3Vic2NyaXB0aW9ucy48L3A+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgIDwvQ29udGFpbmVyPlxuICA8L3NlY3Rpb24+XG4pXG5cbmNvbnN0IFByb2R1Y3RzID0gKCkgPT4gPHNlY3Rpb24gY2xhc3NOYW1lPVwicGFnZV9zZWN0aW9uXCI+XG4gICAgPENvbnRhaW5lcj5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgbWQ9ezEyfSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XG4gICAgICAgIDxoMSBjbGFzc05hbWU9XCJwYWdlX2hlYWRcIj5cbiAgICAgICAgICAgT3VyIFByb2R1Y3RzXG4gICAgICAgIDwvaDE+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuXG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9wcm9kdWN0IHctMTAwXCI+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvcHJvZHVjdHMvcGF5bWVudC1nYXRld2F5LnBuZ1wiIGZsdWlkLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPlBheW1lbnQgR2F0ZXdheTwvaDM+XG4gICAgICAgIDxwPkNvbGxlY3QgbG9jYWwgYW5kIGludGVybmF0aW9uYWwgcGF5bWVudHMgd2l0aCBhIHNpbXBsZSBpbnRlZ3JhdGlvbi4gUmVjZWl2ZSBtb25leSB3aXRoaW4gMiBkYXlzLjwvcD5cbiAgICAgICAgPGEgaHJlZj1cIiNcIj5cbiAgICAgICAgICBMZWFybiBNb3JlXG4gICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9wcm9kdWN0IHctMTAwXCI+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvcHJvZHVjdHMvcGF5b3V0cy5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aWxlX2hlYWRcIj5QYXlvdXRzPC9oMz5cbiAgICAgICAgPHA+U2VuZCBtb25leSB0byBhbnkgYmFuayBhY2NvdW50LCBVUEkgYWRkcmVzcyBvciBQYXlUTSB3YWxsZXQgYnkgdXBsb2FkaW5nIGEgZmlsZSBvciB2aWEgYW4gQVBJLjwvcD5cbiAgICAgICAgPGEgaHJlZj1cIiNcIj5cbiAgICAgICAgICBMZWFybiBNb3JlXG4gICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9wcm9kdWN0IHctMTAwXCI+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvcHJvZHVjdHMvYXV0by1jb2xsZWN0LnBuZ1wiIGZsdWlkLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPkF1dG8gQ29sbGVjdDwvaDM+XG4gICAgICAgIDxwPkF1dG9tYXRpY2FsbHkgdHJhY2sgY3VzdG9tZXIgcGF5bWVudHMgd2l0aCB2aXJ0dWFsIGJhbmsgYWNjb3VudHMuIE5vIG1vcmUgbWFudWFsIHJlY29uY2lsaWF0aW9uLjwvcD5cbiAgICAgICAgPGEgaHJlZj1cIiNcIj5cbiAgICAgICAgICBMZWFybiBNb3JlXG4gICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9wcm9kdWN0IHctMTAwXCI+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvcHJvZHVjdHMvbWFya2V0cGxhY2Utc2V0dGxlbWVudC5wbmdcIiBmbHVpZCAvPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGlsZV9oZWFkXCI+TWFya2V0cGxhY2UgU2V0dGxlbWVudHM8L2gzPlxuICAgICAgICA8cD5BdXRvbWF0aWNhbGx5IHNwbGl0IGNvbW1pc3Npb25zIHdpdGggeW91ciB2ZW5kb3JzIGFmdGVyIGV2ZXJ5IHB1cmNoYXNlLiBSdW4gYSBtYXJrZXRwbGFjZSB3aXRoIGVhc2UuPC9wPlxuICAgICAgICA8YSBocmVmPVwiI1wiPlxuICAgICAgICAgIExlYXJuIE1vcmVcbiAgICAgICAgPC9hPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICA8L0NvbnRhaW5lcj5cbiAgPC9zZWN0aW9uPjtcbmNvbnN0IE5ld3NTZWN0aW9uID0gKCkgPT4gPHNlY3Rpb24gY2xhc3NOYW1lPVwicGFnZV9zZWN0aW9uIGxpZ2h0X2JnXCI+XG48Q29udGFpbmVyPlxuICA8Um93PlxuICAgIDxDb2wgbWQ9ezEyfSB4cz17MTJ9PlxuICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXJcIj5cbiAgICA8aDEgY2xhc3NOYW1lPVwicGFnZV9oZWFkXCI+XG4gICAgIENhc2hmcmVlIGluIHRoZSBOZXdzXG4gICAgPC9oMT5cbiAgICA8L2Rpdj5cbiAgICA8L0NvbD5cbiAgPC9Sb3c+XG4gIDxSb3c+XG4gICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJuZXdzX2xpbmtzXCI+XG4gICAgICA8dWwgY2xhc3NOYW1lPVwibmV3c19saXN0XCI+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby95Yy5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby90Yy5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby90YS5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby9waC5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby9ldC5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby95cy5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICA8L3VsPlxuICAgIDwvZGl2PlxuICAgIDwvQ29sPlxuICA8L1Jvdz5cblxuICBcbjwvQ29udGFpbmVyPlxuPC9zZWN0aW9uPjtcblxuXG5cbmNvbnN0IEN0YVNlY3Rpb24gPSAoKSA9PiA8c2VjdGlvbiBjbGFzc05hbWU9XCJwYWdlX3NlY3Rpb25cIj5cbiAgICA8Q29udGFpbmVyPlxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXJcIj5cbiAgICAgICAgPGgyIGNsYXNzTmFtZT1cInBhZ2VfaGVhZFwiPlxuICAgICAgICBUYWxrIHRvIG91ciBQYXltZW50IEV4cGVydHNcbiAgICAgICAgPC9oMj5cbiAgICAgICAgPHA+SGF2ZSBhIGNvbXBsZXggcGF5bWVudCBmbG93IG9yIHJlcXVpcmUgcGF5bWVudCByZWxhdGVkIGFkdmljZSA/PC9wPlxuICAgICAgICA8YSBocmVmPVwiI1wiIGNsYXNzTmFtZT1cImJ0bi1wcmltYXJ5XCI+XG4gICAgICAgICAgR2V0IEluIFRvdWNoXG4gICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgPC9Db250YWluZXI+XG4gIDwvc2VjdGlvbj47XG5cblxuY29uc3QgRmFxcyA9ICgpID0+IDxzZWN0aW9uIGNsYXNzTmFtZT1cInBhZ2Vfc2VjdGlvblwiPlxuICAgIDxDb250YWluZXI+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXsxMn0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICA8aDIgY2xhc3NOYW1lPVwicGFnZV9oZWFkXCI+XG4gICAgICAgIEZBUXNcbiAgICAgICAgPC9oMj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXsxMn0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlciBmYXFzXCI+XG4gICAgICAgICAga2poampcbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgPC9Db250YWluZXI+XG4gIDwvc2VjdGlvbj47XG5cblxuXG5cblxuXG5cbmNvbnN0IEhvbWUgPSAoKSA9PiAoXG48PlxuICAgIDxIZWFkPlxuICAgICAgPHRpdGxlPkhvbWU8L3RpdGxlPlxuICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIGhyZWY9XCIvZmF2aWNvbi5pY29cIiAvPlxuICAgICAgPGxpbmsgaHJlZj1cImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Nb250c2VycmF0OjMwMCw0MDAsNTAwLDYwMCw3MDAsODAwfE9wZW4rU2FuczozMDAsNDAwLDYwMCw3MDAsODAwJmRpc3BsYXk9c3dhcFwiIHJlbD1cInN0eWxlc2hlZXRcIj48L2xpbms+XG4gICAgPC9IZWFkPlxuICAgICA8QmFubmVyLz5cbiAgICAgPENvbXBldGl0aW9uLz5cbiAgICAgPFByb2R1Y3RzLz5cbiAgICAgPE5ld3NTZWN0aW9uLz5cbiAgICAgPEZhcXMvPlxuICAgICA8Q3RhU2VjdGlvbi8+XG4gICAgIDxGb290ZXIvPlxuICAgICA8c3R5bGUganN4PntgXG4gICAgIFxuICAgICAuYmFubmVyX3NsaWRlIHtcbiAgICAgICAgbWFyZ2luOiA1MHB4IDA7XG4gICAgICB9XG4gICAgICBcbiAgICBgfVxuICAgICA8L3N0eWxlPlxuICA8Lz5cbilcblxuZXhwb3J0IGRlZmF1bHQgSG9tZVxuIl19 */\n/*@ sourceURL=/Users/deepakkumar/Documents/cashfree-next-web/pages/index.js */"))), __jsx(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }, "h1.jsx-1785990090{color:white;}p.jsx-1785990090{font-size:22px;font-weight:500;padding:24px 0;color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kZWVwYWtrdW1hci9Eb2N1bWVudHMvY2FzaGZyZWUtbmV4dC13ZWIvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBeUZtQixBQUcwQixBQUdJLFlBRmpCLEdBR2tCLGdCQUNELGVBQ0osWUFDYiIsImZpbGUiOiIvVXNlcnMvZGVlcGFra3VtYXIvRG9jdW1lbnRzL2Nhc2hmcmVlLW5leHQtd2ViL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7dXNlU3RhdGV9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuaW1wb3J0IEhlYWRlciBmcm9tICcuLi9jb21wb25lbnRzL0hlYWRlcidcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vY29tcG9uZW50cy9Gb290ZXInXG5pbXBvcnQgSW1hZ2UgZnJvbSAncmVhY3QtYm9vdHN0cmFwL0ltYWdlJ1xuaW1wb3J0IEJ1dHRvbiBmcm9tICdyZWFjdC1ib290c3RyYXAvQnV0dG9uJ1xuaW1wb3J0IEJ1dHRvblRvb2xiYXIgZnJvbSAncmVhY3QtYm9vdHN0cmFwL0J1dHRvblRvb2xiYXInXG5pbXBvcnQgQ29udGFpbmVyIGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Db250YWluZXInO1xuaW1wb3J0ICcuLi9zdHlsZXMvY3VzdG9tLXRoZW1lLnNjc3MnO1xuaW1wb3J0ICdyZWFjdC1tdWx0aS1jYXJvdXNlbC9saWIvc3R5bGVzLmNzcyc7XG5pbXBvcnQgQ2Fyb3VzZWwgZnJvbSAncmVhY3QtbXVsdGktY2Fyb3VzZWwnO1xuaW1wb3J0IFJvdyBmcm9tICdyZWFjdC1ib290c3RyYXAvUm93J1xuaW1wb3J0IENvbCBmcm9tICdyZWFjdC1ib290c3RyYXAvQ29sJ1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuaW1wb3J0IEhvbWVGYXFzIGZyb20gJy4uL2NvbXBvbmVudHMvSG9tZUZhcXMnXG5pbXBvcnQgVmlkZW9Nb2RhbCBmcm9tICcuLi9jb21wb25lbnRzL1ZpZGVvTW9kYWwnXG5cblxuZnVuY3Rpb24gY2xpZW50cygpIHtcbiAgcmV0dXJuIFtcbiAgICB7IHNyYzonL2NsaWVudHMvY3JlZC5wbmcnLCBhbHQ6J0NyZWQnIH0sXG4gICAgeyBzcmM6Jy9jbGllbnRzL2RlbGhpYmVyeS5wbmcnLCBhbHQ6J2RlbGhpYmVyeScgfSxcbiAgICB7IHNyYzonL2NsaWVudHMvZHVuem8ucG5nJywgYWx0OidkdW56bycgfSxcbiAgICB7IHNyYzonL2NsaWVudHMvZXh4by5wbmcnLCBhbHQ6J2V4eG8nIH0sXG4gICAgeyBzcmM6Jy9jbGllbnRzL3hpYW9taS5wbmcnLCBhbHQ6J3hpYW9taScgfSxcbiAgICB7IHNyYzonL2NsaWVudHMvem9tYXRvLnBuZycsIGFsdDonem9tYXRvJyB9XG4gIF07XG59XG5cbmNvbnN0IHJlc3BvbnNpdmUgPSB7XG4gIHN1cGVyTGFyZ2VEZXNrdG9wOiB7XG4gICAgLy8gdGhlIG5hbWluZyBjYW4gYmUgYW55LCBkZXBlbmRzIG9uIHlvdS5cbiAgICBicmVha3BvaW50OiB7IG1heDogNDAwMCwgbWluOiAzMDAwIH0sXG4gICAgaXRlbXM6IDYsXG4gIH0sXG4gIGRlc2t0b3A6IHtcbiAgICBicmVha3BvaW50OiB7IG1heDogMzAwMCwgbWluOiAxMDI0IH0sXG4gICAgaXRlbXM6IDYsXG4gIH0sXG4gIHRhYmxldDoge1xuICAgIGJyZWFrcG9pbnQ6IHsgbWF4OiAxMDI0LCBtaW46IDc2OCB9LFxuICAgIGl0ZW1zOiAzLFxuICB9LFxuICBtb2JpbGU6IHtcbiAgICBicmVha3BvaW50OiB7IG1heDogNzY3LCBtaW46IDMyMCB9LFxuICAgIGl0ZW1zOiAyLFxuICB9LFxufTtcblxuZnVuY3Rpb24gQmFubmVyQ2xpZW50cyhwcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxDYXJvdXNlbCByZXNwb25zaXZlPXtyZXNwb25zaXZlfVxuICAgICBhcnJvd3M9e2ZhbHNlfVxuICAgICBpbmZpbml0ZT17ZmFsc2V9XG4gICAgIGNlbnRlck1vZGU9e3RydWV9XG4gICAgIHNsaWRlc1RvU2xpZGU9ezF9XG4gICAgIGF1dG9QbGF5PXtwcm9wcy5kZXZpY2VUeXBlICE9PSBcImRlc2t0b3BcIiA/IHRydWUgOiBmYWxzZX1cbiAgICAgc3NyPXt0cnVlfVxuICAgICByZW1vdmVBcnJvd09uRGV2aWNlVHlwZT17W1wiZGVza3RvcFwiLCBcInN1cGVyTGFyZ2VEZXNrdG9wXCJdfVxuICAgICBpdGVtQ2xhc3M9XCJjbGllbnRfbG9nb19pdGVtXCJcbiAgICA+XG4gICAgICB7Y2xpZW50cygpLm1hcChzbGlkZSA9PiAoXG4gICAgICAgICAgICAgICAgPGltZ1xuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImQtYmxvY2sgdy0xMDBcIlxuICAgICAgICAgICAgICAgIHNyYz17c2xpZGUuc3JjfVxuICAgICAgICAgICAgICAgIGFsdD17c2xpZGUuYWx0fVxuICAgICAgICAgICAgICAgIC8+ICAgICAgICBcbiAgICAgICAgICAgICAgKSl9ICBcbiAgICA8L0Nhcm91c2VsPlxuICApO1xufVxuXG5jb25zdCBCYW5uZXIgPSAoKSA9PiAoXG4gIDw+XG4gICA8SGVhZGVyLz5cbiAgPHNlY3Rpb24gY2xhc3NOYW1lPVwiaGVyb19zZWN0aW9uXCI+XG4gICAgPENvbnRhaW5lcj5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgbWQ9ezZ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmFubmVyX2NvbnRcIj5cbiAgICAgICAgPGgxIGNsYXNzTmFtZT1cImJhbm5lcl9oZWFkXCI+XG4gICAgICAgIEEgQ29tcGxldGUgUGF5bWVudHMgVG9vbGtpdCBmb3IgSW5kaWFcbiAgICAgICAgPC9oMT5cbiAgICAgICAgPHA+VGhlIGZhc3Rlc3QgYW5kIGVhc2llc3Qgd2F5IHRvIGNvbGxlY3QgYW5kIGRpc2J1cnNlIHBheW1lbnRzIGZvciBncm93aW5nIGJ1c2luZXNzZXM8L3A+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8QnV0dG9uVG9vbGJhcj5cbiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PVwib3V0bGluZS1saWdodCBtci0zXCI+Q3JlYXRlIEFjY291bnQ8L0J1dHRvbj5cbiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PVwicHJpbWFyeVwiPkNvbnRhY3QgU2FsZXM8L0J1dHRvbj5cbiAgICAgICA8L0J1dHRvblRvb2xiYXI+XG4gICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgICAgaDF7XG4gICAgICAgICAgICAgIGNvbG9yOndoaXRlO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgcHtcbiAgICAgICAgICAgICAgZm9udC1zaXplOiAyMnB4O1xuICAgICAgICAgICAgICBmb250LXdlaWdodDogNTAwO1xuICAgICAgICAgICAgICBwYWRkaW5nOiAyNHB4IDA7XG4gICAgICAgICAgICAgIGNvbG9yOndoaXRlO1xuICAgICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXsxMn0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiYW5uZXJfc2xpZGUgdGV4dC1jZW50ZXJcIj5cbiAgICAgICAgICA8aDQ+T3VyIGN1c3RvbWVycyBpbmNsdWRlPC9oND5cbiAgICAgICAgICA8QmFubmVyQ2xpZW50cy8+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgIDwvQ29udGFpbmVyPlxuICA8L3NlY3Rpb24+XG4gIDwvPlxuKVxuXG5jb25zdCBDb21wZXRpdGlvbiA9ICgpID0+IChcbiAgPHNlY3Rpb24gY2xhc3NOYW1lPVwicGFnZV9zZWN0aW9uIGxpZ2h0X2JnXCI+XG4gICAgPENvbnRhaW5lcj5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgbWQ9ezEyfSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XG4gICAgICAgIDxoMiBjbGFzc05hbWU9XCJwYWdlX2hlYWRcIj5cbiAgICAgICAgU3RheSBBaGVhZCBvZiBDb21wZXRpdGlvbiB3aXRoIENhc2hmcmVlXG4gICAgICAgIDwvaDI+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuXG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvZHVjdF9ib3ggdGV4dC1jZW50ZXIgdy0xMDBcIj5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9wcm9kdWN0cy9pbnN0YW50LXJlZnVuZHMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGlsZV9oZWFkXCI+SW5zdGFudCBSZWZ1bmQ8L2gzPlxuICAgICAgICA8cD5Gb3Igb25saW5lIHBheW1lbnRzIGFuZCBjYXNoIG9uIGRlbGl2ZXJ5IHBheW1lbnRzLiBJbmRlcGVuZGVudCBvZiBiYW5raW5nIGhvdXJzLjwvcD5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvZHVjdF9ib3ggdGV4dC1jZW50ZXIgdy0xMDBcIj5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9wcm9kdWN0cy9pbnN0YW50LWFjY291bnQtdmVyaWZpY2F0aW9uLnBuZ1wiIGZsdWlkLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPk9uLWRlbWFuZCBQYXlvdXRzPC9oMz5cbiAgICAgICAgPHA+RGlzYnVyc2UgYnVsayBwYXltZW50cyBpbnN0YW50bHkuIFNpbXBsZXIgYW5kIGZhc3RlciB0aGFuIGJhbmtzLjwvcD5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvZHVjdF9ib3ggdGV4dC1jZW50ZXIgdy0xMDBcIj5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9wcm9kdWN0cy9vbmRlbWFuZC1wYXlvdXRzLnBuZ1wiIGZsdWlkLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPkJhbmsgQWNjb3VudCBWZXJpZmljYXRpb248L2gzPlxuICAgICAgICA8cD5Lbm93IHlvdXIgY3VzdG9tZXI6IFZlcmlmeSBiYW5rIGFjY291bnQgYW5kIGhvbGRlciBuYW1lIGluc3RhbnRseSBiZWZvcmUgc2VuZGluZyBtb25leS48L3A+XG4gICAgICAgIHsvKiA8TGluayBocmVmPVwiL1wiLz4gKi99XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBtZD17M30gIHNtPXs0fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByb2R1Y3RfYm94IHRleHQtY2VudGVyIHctMTAwXCI+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvcHJvZHVjdHMvcmVjdXJyaW5nLXBheW1lbnRzLnBuZ1wiIGZsdWlkIC8+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aWxlX2hlYWRcIj5SZWN1cnJpbmcgUGF5bWVudHM8L2gzPlxuICAgICAgICA8cD5VbmxvY2sgYnVzaW5lc3Mgb3Bwb3J0dW5pdGllcyB3aXRoIHN1YnNjcmlwdGlvbnMuPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICA8L0NvbnRhaW5lcj5cbiAgPC9zZWN0aW9uPlxuKVxuXG5jb25zdCBQcm9kdWN0cyA9ICgpID0+IDxzZWN0aW9uIGNsYXNzTmFtZT1cInBhZ2Vfc2VjdGlvblwiPlxuICAgIDxDb250YWluZXI+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXsxMn0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICA8aDEgY2xhc3NOYW1lPVwicGFnZV9oZWFkXCI+XG4gICAgICAgICAgIE91ciBQcm9kdWN0c1xuICAgICAgICA8L2gxPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cblxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17M30gIHNtPXs0fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fcHJvZHVjdCB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL3BheW1lbnQtZ2F0ZXdheS5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aWxlX2hlYWRcIj5QYXltZW50IEdhdGV3YXk8L2gzPlxuICAgICAgICA8cD5Db2xsZWN0IGxvY2FsIGFuZCBpbnRlcm5hdGlvbmFsIHBheW1lbnRzIHdpdGggYSBzaW1wbGUgaW50ZWdyYXRpb24uIFJlY2VpdmUgbW9uZXkgd2l0aGluIDIgZGF5cy48L3A+XG4gICAgICAgIDxhIGhyZWY9XCIjXCI+XG4gICAgICAgICAgTGVhcm4gTW9yZVxuICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBtZD17M30gIHNtPXs0fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fcHJvZHVjdCB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL3BheW91dHMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGlsZV9oZWFkXCI+UGF5b3V0czwvaDM+XG4gICAgICAgIDxwPlNlbmQgbW9uZXkgdG8gYW55IGJhbmsgYWNjb3VudCwgVVBJIGFkZHJlc3Mgb3IgUGF5VE0gd2FsbGV0IGJ5IHVwbG9hZGluZyBhIGZpbGUgb3IgdmlhIGFuIEFQSS48L3A+XG4gICAgICAgIDxhIGhyZWY9XCIjXCI+XG4gICAgICAgICAgTGVhcm4gTW9yZVxuICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBtZD17M30gIHNtPXs0fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fcHJvZHVjdCB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL2F1dG8tY29sbGVjdC5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aWxlX2hlYWRcIj5BdXRvIENvbGxlY3Q8L2gzPlxuICAgICAgICA8cD5BdXRvbWF0aWNhbGx5IHRyYWNrIGN1c3RvbWVyIHBheW1lbnRzIHdpdGggdmlydHVhbCBiYW5rIGFjY291bnRzLiBObyBtb3JlIG1hbnVhbCByZWNvbmNpbGlhdGlvbi48L3A+XG4gICAgICAgIDxhIGhyZWY9XCIjXCI+XG4gICAgICAgICAgTGVhcm4gTW9yZVxuICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBtZD17M30gIHNtPXs0fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fcHJvZHVjdCB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL21hcmtldHBsYWNlLXNldHRsZW1lbnQucG5nXCIgZmx1aWQgLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPk1hcmtldHBsYWNlIFNldHRsZW1lbnRzPC9oMz5cbiAgICAgICAgPHA+QXV0b21hdGljYWxseSBzcGxpdCBjb21taXNzaW9ucyB3aXRoIHlvdXIgdmVuZG9ycyBhZnRlciBldmVyeSBwdXJjaGFzZS4gUnVuIGEgbWFya2V0cGxhY2Ugd2l0aCBlYXNlLjwvcD5cbiAgICAgICAgPGEgaHJlZj1cIiNcIj5cbiAgICAgICAgICBMZWFybiBNb3JlXG4gICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgPC9Db250YWluZXI+XG4gIDwvc2VjdGlvbj47XG5jb25zdCBOZXdzU2VjdGlvbiA9ICgpID0+IDxzZWN0aW9uIGNsYXNzTmFtZT1cInBhZ2Vfc2VjdGlvbiBsaWdodF9iZ1wiPlxuPENvbnRhaW5lcj5cbiAgPFJvdz5cbiAgICA8Q29sIG1kPXsxMn0geHM9ezEyfT5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XG4gICAgPGgxIGNsYXNzTmFtZT1cInBhZ2VfaGVhZFwiPlxuICAgICBDYXNoZnJlZSBpbiB0aGUgTmV3c1xuICAgIDwvaDE+XG4gICAgPC9kaXY+XG4gICAgPC9Db2w+XG4gIDwvUm93PlxuICA8Um93PlxuICAgIDxDb2wgbWQ9ezEyfSB4cz17MTJ9PlxuICAgIDxkaXYgY2xhc3NOYW1lPVwibmV3c19saW5rc1wiPlxuICAgICAgPHVsIGNsYXNzTmFtZT1cIm5ld3NfbGlzdFwiPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28veWMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28vdGMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28vdGEucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28vcGgucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28vZXQucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28veXMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgPC91bD5cbiAgICA8L2Rpdj5cbiAgICA8L0NvbD5cbiAgPC9Sb3c+XG5cbiAgXG48L0NvbnRhaW5lcj5cbjwvc2VjdGlvbj47XG5cblxuXG5jb25zdCBDdGFTZWN0aW9uID0gKCkgPT4gPHNlY3Rpb24gY2xhc3NOYW1lPVwicGFnZV9zZWN0aW9uXCI+XG4gICAgPENvbnRhaW5lcj5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgbWQ9ezEyfSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XG4gICAgICAgIDxoMiBjbGFzc05hbWU9XCJwYWdlX2hlYWRcIj5cbiAgICAgICAgVGFsayB0byBvdXIgUGF5bWVudCBFeHBlcnRzXG4gICAgICAgIDwvaDI+XG4gICAgICAgIDxwPkhhdmUgYSBjb21wbGV4IHBheW1lbnQgZmxvdyBvciByZXF1aXJlIHBheW1lbnQgcmVsYXRlZCBhZHZpY2UgPzwvcD5cbiAgICAgICAgPGEgaHJlZj1cIiNcIiBjbGFzc05hbWU9XCJidG4tcHJpbWFyeVwiPlxuICAgICAgICAgIEdldCBJbiBUb3VjaFxuICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgIDwvQ29udGFpbmVyPlxuICA8L3NlY3Rpb24+O1xuXG5cbmNvbnN0IEZhcXMgPSAoKSA9PiA8c2VjdGlvbiBjbGFzc05hbWU9XCJwYWdlX3NlY3Rpb25cIj5cbiAgICA8Q29udGFpbmVyPlxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXJcIj5cbiAgICAgICAgPGgyIGNsYXNzTmFtZT1cInBhZ2VfaGVhZFwiPlxuICAgICAgICBGQVFzXG4gICAgICAgIDwvaDI+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmFxc1wiPlxuICAgICAgICA8SG9tZUZhcXMvPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICA8L0NvbnRhaW5lcj5cbiAgPC9zZWN0aW9uPjtcblxuXG5cbmZ1bmN0aW9uIENhc2hncmFtSG9tZSgpIHsgIFxuICBjb25zdCBbc2hvdywgc2V0U2hvd10gPSB1c2VTdGF0ZSh0cnVlKTtcbiAgY29uc3QgaGFuZGxlQ2xvc2UgPSAoKSA9PiBzZXRTaG93KGZhbHNlKTtcbiAgY29uc3QgaGFuZGxlU2hvdyA9ICgpID0+IHNldFNob3codHJ1ZSk7XG5cbiAgICByZXR1cm4gKFxuICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cInBhZ2Vfc2VjdGlvbiBjYXNoZ3JhbV9zZWNcIj5cbiAgICAgICAgPFJvdyBjbGFzc05hbWU9XCJtLTBcIj5cbiAgICAgICAgICA8Q29sIG1kPXs2fSB4cz17MTJ9ICBjbGFzc05hbWU9XCJwLTBcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FzaGdyYW1fdmlkZW9cIj4gIFxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJnX2ltZ1wiPlxuICAgICAgICAgICAgICA8SW1hZ2Ugc3JjPVwiL2ltYWdlcy9jZ19iZy5wbmdcIiBmbHVpZC8+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8YSBjbGFzc05hbWU9XCJwbGF5X2J0blwiIG9uQ2xpY2s9e2hhbmRsZVNob3d9PjxJbWFnZSBzcmM9XCIvaWNvbnMvcGxheWljb24ucG5nXCIgZmx1aWQvPjwvYT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgXG4gICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgIDxDb2wgbWQ9ezZ9IHhzPXsxMn0+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhc2hncmFtX2NvbnRlbnRcIj5cbiAgICAgICAgICAgIDxoMz5DYXNoZ3JhbSA8YnIvPiBGaXJzdCBvZiBpdHMga2luZCByZWZ1bmQgc29sdXRpb248L2gzPlxuICAgICAgICAgICAgPHA+Q2FzaGdyYW0gaXMgYSB3ZWJsaW5rIGJ1c2luZXNzZXMgY2FuIHNlbmQgdXNlcnMgdG8gY29sbGVjdCBhY2NvdW50IGRldGFpbHMgYW5kIG1ha2UgcGF5bWVudCBpbnN0YW50bHkuIDxiPiBFeHBlcmllbmNlIHRoZSBmdXR1cmUgb2YgcmVmdW5kcyBpbiBJbmRpYS48L2I+PC9wPiBcbiAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5jYXNoZnJlZS5jb20vY2FzaGdyYW1cIiB0YXJnZXQ9XCJfYmxhbmtcIiBjbGFzc05hbWU9XCJidG4gYnRuLXByaW1hcnlcIj5MZWFybiBtb3JlPC9hPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICA8L1Jvdz5cbiAgICAgICAgICA8VmlkZW9Nb2RhbCBzaG93PXtzaG93fS8+XG4gICAgICA8L3NlY3Rpb24+XG4gICAgKTtcblxufVxuXG5cblxuXG5jb25zdCBIb21lID0gKCkgPT4gKFxuPD5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Ib21lPC90aXRsZT5cbiAgICAgIDxsaW5rIHJlbD1cImljb25cIiBocmVmPVwiL2Zhdmljb24uaWNvXCIgLz5cbiAgICAgIDxsaW5rIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TW9udHNlcnJhdDozMDAsNDAwLDUwMCw2MDAsNzAwLDgwMHxPcGVuK1NhbnM6MzAwLDQwMCw2MDAsNzAwLDgwMCZkaXNwbGF5PXN3YXBcIiByZWw9XCJzdHlsZXNoZWV0XCI+PC9saW5rPlxuICAgIDwvSGVhZD5cbiAgICAgPEJhbm5lci8+XG4gICAgIDxDb21wZXRpdGlvbi8+XG4gICAgIDxQcm9kdWN0cy8+XG4gICAgIDxDYXNoZ3JhbUhvbWUvPlxuICAgICA8TmV3c1NlY3Rpb24vPlxuICAgICA8RmFxcy8+XG4gICAgIDxDdGFTZWN0aW9uLz5cbiAgICAgPEZvb3Rlci8+XG4gICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgXG4gICAgIC5iYW5uZXJfc2xpZGUge1xuICAgICAgICBtYXJnaW46IDUwcHggMDtcbiAgICAgIH1cbiAgICAgIFxuICAgIGB9XG4gICAgIDwvc3R5bGU+XG4gIDwvPlxuKVxuXG5leHBvcnQgZGVmYXVsdCBIb21lXG4iXX0= */\n/*@ sourceURL=/Users/deepakkumar/Documents/cashfree-next-web/pages/index.js */"))), __jsx(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 103
     },
     __self: this
   }, __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -19842,26 +22301,26 @@ var Banner = function Banner() {
     xs: 12,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 104
     },
     __self: this
   }, __jsx("div", {
     className: "banner_slide text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 105
     },
     __self: this
   }, __jsx("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 106
     },
     __self: this
   }, "Our customers include"), __jsx(BannerClients, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 107
     },
     __self: this
   })))))));
@@ -20566,27 +23025,165 @@ var Faqs = function Faqs() {
     },
     __self: this
   }, __jsx("div", {
-    className: "text-center faqs",
+    className: "faqs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 296
     },
     __self: this
-  }, "kjhjj")))));
+  }, __jsx(_components_HomeFaqs__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 297
+    },
+    __self: this
+  }))))));
 };
+
+function CashgramHome() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
+      show = _useState[0],
+      setShow = _useState[1];
+
+  var handleClose = function handleClose() {
+    return setShow(false);
+  };
+
+  var handleShow = function handleShow() {
+    return setShow(true);
+  };
+
+  return __jsx("section", {
+    className: "page_section cashgram_sec",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 312
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    className: "m-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 313
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    md: 6,
+    xs: 12,
+    className: "p-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 314
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "cashgram_video",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 315
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "bg_img",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 316
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "/images/cg_bg.png",
+    fluid: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 317
+    },
+    __self: this
+  })), __jsx("a", {
+    className: "play_btn",
+    onClick: handleShow,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 319
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "/icons/playicon.png",
+    fluid: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 319
+    },
+    __self: this
+  })))), __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    md: 6,
+    xs: 12,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 323
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "cashgram_content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 324
+    },
+    __self: this
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 325
+    },
+    __self: this
+  }, "Cashgram ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 325
+    },
+    __self: this
+  }), " First of its kind refund solution"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 326
+    },
+    __self: this
+  }, "Cashgram is a weblink businesses can send users to collect account details and make payment instantly. ", __jsx("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 326
+    },
+    __self: this
+  }, " Experience the future of refunds in India.")), __jsx("a", {
+    href: "https://www.cashfree.com/cashgram",
+    target: "_blank",
+    className: "btn btn-primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 327
+    },
+    __self: this
+  }, "Learn more")))), __jsx(_components_VideoModal__WEBPACK_IMPORTED_MODULE_16__["default"], {
+    show: show,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 331
+    },
+    __self: this
+  }));
+}
 
 var Home = function Home() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 312
+      lineNumber: 342
     },
     __self: this
   }, __jsx("title", {
     className: "jsx-3664128902",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 313
+      lineNumber: 343
     },
     __self: this
   }, "Home"), __jsx("link", {
@@ -20595,7 +23192,7 @@ var Home = function Home() {
     className: "jsx-3664128902",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 314
+      lineNumber: 344
     },
     __self: this
   }), __jsx("link", {
@@ -20604,62 +23201,68 @@ var Home = function Home() {
     className: "jsx-3664128902",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 315
+      lineNumber: 345
     },
     __self: this
   })), __jsx(Banner, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 317
+      lineNumber: 347
     },
     __self: this
   }), __jsx(Competition, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 318
+      lineNumber: 348
     },
     __self: this
   }), __jsx(Products, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 319
+      lineNumber: 349
+    },
+    __self: this
+  }), __jsx(CashgramHome, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 350
     },
     __self: this
   }), __jsx(NewsSection, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 320
+      lineNumber: 351
     },
     __self: this
   }), __jsx(Faqs, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 321
+      lineNumber: 352
     },
     __self: this
   }), __jsx(CtaSection, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 322
+      lineNumber: 353
     },
     __self: this
   }), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 323
+      lineNumber: 354
     },
     __self: this
   }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3664128902",
     __self: this
-  }, ".banner_slide.jsx-3664128902{margin:50px 0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kZWVwYWtrdW1hci9Eb2N1bWVudHMvY2FzaGZyZWUtbmV4dC13ZWIvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbVVpQixBQUl1QixjQUNoQiIsImZpbGUiOiIvVXNlcnMvZGVlcGFra3VtYXIvRG9jdW1lbnRzL2Nhc2hmcmVlLW5leHQtd2ViL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuaW1wb3J0IEhlYWRlciBmcm9tICcuLi9jb21wb25lbnRzL0hlYWRlcidcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vY29tcG9uZW50cy9Gb290ZXInXG5pbXBvcnQgSW1hZ2UgZnJvbSAncmVhY3QtYm9vdHN0cmFwL0ltYWdlJ1xuaW1wb3J0IEJ1dHRvbiBmcm9tICdyZWFjdC1ib290c3RyYXAvQnV0dG9uJ1xuaW1wb3J0IEJ1dHRvblRvb2xiYXIgZnJvbSAncmVhY3QtYm9vdHN0cmFwL0J1dHRvblRvb2xiYXInXG5pbXBvcnQgQ29udGFpbmVyIGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Db250YWluZXInO1xuaW1wb3J0ICcuLi9zdHlsZXMvY3VzdG9tLXRoZW1lLnNjc3MnO1xuaW1wb3J0ICdyZWFjdC1tdWx0aS1jYXJvdXNlbC9saWIvc3R5bGVzLmNzcyc7XG5pbXBvcnQgQ2Fyb3VzZWwgZnJvbSAncmVhY3QtbXVsdGktY2Fyb3VzZWwnO1xuLy8gaW1wb3J0IFNsaWRlciBmcm9tICdpbmZpbml0ZS1yZWFjdC1jYXJvdXNlbCc7XG5pbXBvcnQgUm93IGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Sb3cnXG5pbXBvcnQgQ29sIGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Db2wnXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5cbmZ1bmN0aW9uIGNsaWVudHMoKSB7XG4gIHJldHVybiBbXG4gICAgeyBzcmM6Jy9jbGllbnRzL2NyZWQucG5nJywgYWx0OidDcmVkJyB9LFxuICAgIHsgc3JjOicvY2xpZW50cy9kZWxoaWJlcnkucG5nJywgYWx0OidkZWxoaWJlcnknIH0sXG4gICAgeyBzcmM6Jy9jbGllbnRzL2R1bnpvLnBuZycsIGFsdDonZHVuem8nIH0sXG4gICAgeyBzcmM6Jy9jbGllbnRzL2V4eG8ucG5nJywgYWx0OidleHhvJyB9LFxuICAgIHsgc3JjOicvY2xpZW50cy94aWFvbWkucG5nJywgYWx0Oid4aWFvbWknIH0sXG4gICAgeyBzcmM6Jy9jbGllbnRzL3pvbWF0by5wbmcnLCBhbHQ6J3pvbWF0bycgfVxuICBdO1xufVxuXG5jb25zdCByZXNwb25zaXZlID0ge1xuICBzdXBlckxhcmdlRGVza3RvcDoge1xuICAgIC8vIHRoZSBuYW1pbmcgY2FuIGJlIGFueSwgZGVwZW5kcyBvbiB5b3UuXG4gICAgYnJlYWtwb2ludDogeyBtYXg6IDQwMDAsIG1pbjogMzAwMCB9LFxuICAgIGl0ZW1zOiA2LFxuICB9LFxuICBkZXNrdG9wOiB7XG4gICAgYnJlYWtwb2ludDogeyBtYXg6IDMwMDAsIG1pbjogMTAyNCB9LFxuICAgIGl0ZW1zOiA2LFxuICB9LFxuICB0YWJsZXQ6IHtcbiAgICBicmVha3BvaW50OiB7IG1heDogMTAyNCwgbWluOiA3NjggfSxcbiAgICBpdGVtczogMyxcbiAgfSxcbiAgbW9iaWxlOiB7XG4gICAgYnJlYWtwb2ludDogeyBtYXg6IDc2NywgbWluOiAzMjAgfSxcbiAgICBpdGVtczogMixcbiAgfSxcbn07XG5cbmZ1bmN0aW9uIEJhbm5lckNsaWVudHMocHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8Q2Fyb3VzZWwgcmVzcG9uc2l2ZT17cmVzcG9uc2l2ZX1cbiAgICAgYXJyb3dzPXtmYWxzZX1cbiAgICAgaW5maW5pdGU9e2ZhbHNlfVxuICAgICBjZW50ZXJNb2RlPXt0cnVlfVxuICAgICBzbGlkZXNUb1NsaWRlPXsxfVxuICAgICBhdXRvUGxheT17cHJvcHMuZGV2aWNlVHlwZSAhPT0gXCJkZXNrdG9wXCIgPyB0cnVlIDogZmFsc2V9XG4gICAgIHNzcj17dHJ1ZX1cbiAgICAgcmVtb3ZlQXJyb3dPbkRldmljZVR5cGU9e1tcImRlc2t0b3BcIiwgXCJzdXBlckxhcmdlRGVza3RvcFwiXX1cbiAgICAgaXRlbUNsYXNzPVwiY2xpZW50X2xvZ29faXRlbVwiXG4gICAgPlxuICAgICAge2NsaWVudHMoKS5tYXAoc2xpZGUgPT4gKFxuICAgICAgICAgICAgICAgIDxpbWdcbiAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJkLWJsb2NrIHctMTAwXCJcbiAgICAgICAgICAgICAgICBzcmM9e3NsaWRlLnNyY31cbiAgICAgICAgICAgICAgICBhbHQ9e3NsaWRlLmFsdH1cbiAgICAgICAgICAgICAgICAvPiAgICAgICAgXG4gICAgICAgICAgICAgICkpfSAgXG4gICAgPC9DYXJvdXNlbD5cbiAgKTtcbn1cblxuY29uc3QgQmFubmVyID0gKCkgPT4gKFxuICA8PlxuICAgPEhlYWRlci8+XG4gIDxzZWN0aW9uIGNsYXNzTmFtZT1cImhlcm9fc2VjdGlvblwiPlxuICAgIDxDb250YWluZXI+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXs2fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJhbm5lcl9jb250XCI+XG4gICAgICAgIDxoMSBjbGFzc05hbWU9XCJiYW5uZXJfaGVhZFwiPlxuICAgICAgICBBIENvbXBsZXRlIFBheW1lbnRzIFRvb2xraXQgZm9yIEluZGlhXG4gICAgICAgIDwvaDE+XG4gICAgICAgIDxwPlRoZSBmYXN0ZXN0IGFuZCBlYXNpZXN0IHdheSB0byBjb2xsZWN0IGFuZCBkaXNidXJzZSBwYXltZW50cyBmb3IgZ3Jvd2luZyBidXNpbmVzc2VzPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPEJ1dHRvblRvb2xiYXI+XG4gICAgICAgIDxCdXR0b24gdmFyaWFudD1cIm91dGxpbmUtbGlnaHQgbXItM1wiPkNyZWF0ZSBBY2NvdW50PC9CdXR0b24+XG4gICAgICAgIDxCdXR0b24gdmFyaWFudD1cInByaW1hcnlcIj5Db250YWN0IFNhbGVzPC9CdXR0b24+XG4gICAgICAgPC9CdXR0b25Ub29sYmFyPlxuICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgIGgxe1xuICAgICAgICAgICAgICBjb2xvcjp3aGl0ZTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIHB7XG4gICAgICAgICAgICAgIGZvbnQtc2l6ZTogMjJweDtcbiAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICAgICAgICAgICAgcGFkZGluZzogMjRweCAwO1xuICAgICAgICAgICAgICBjb2xvcjp3aGl0ZTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmFubmVyX3NsaWRlIHRleHQtY2VudGVyXCI+XG4gICAgICAgICAgPGg0Pk91ciBjdXN0b21lcnMgaW5jbHVkZTwvaDQ+XG4gICAgICAgICAgPEJhbm5lckNsaWVudHMvPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICAgXG4gICAgPC9Db250YWluZXI+XG4gICAgXG4gIDwvc2VjdGlvbj5cbiAgPC8+XG4pXG5cbmNvbnN0IENvbXBldGl0aW9uID0gKCkgPT4gKFxuICA8c2VjdGlvbiBjbGFzc05hbWU9XCJwYWdlX3NlY3Rpb24gbGlnaHRfYmdcIj5cbiAgICA8Q29udGFpbmVyPlxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXJcIj5cbiAgICAgICAgPGgyIGNsYXNzTmFtZT1cInBhZ2VfaGVhZFwiPlxuICAgICAgICBTdGF5IEFoZWFkIG9mIENvbXBldGl0aW9uIHdpdGggQ2FzaGZyZWVcbiAgICAgICAgPC9oMj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgbWQ9ezN9ICBzbT17NH0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9kdWN0X2JveCB0ZXh0LWNlbnRlciB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL2luc3RhbnQtcmVmdW5kcy5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aWxlX2hlYWRcIj5JbnN0YW50IFJlZnVuZDwvaDM+XG4gICAgICAgIDxwPkZvciBvbmxpbmUgcGF5bWVudHMgYW5kIGNhc2ggb24gZGVsaXZlcnkgcGF5bWVudHMuIEluZGVwZW5kZW50IG9mIGJhbmtpbmcgaG91cnMuPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICAgIDxDb2wgbWQ9ezN9ICBzbT17NH0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9kdWN0X2JveCB0ZXh0LWNlbnRlciB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL2luc3RhbnQtYWNjb3VudC12ZXJpZmljYXRpb24ucG5nXCIgZmx1aWQvPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGlsZV9oZWFkXCI+T24tZGVtYW5kIFBheW91dHM8L2gzPlxuICAgICAgICA8cD5EaXNidXJzZSBidWxrIHBheW1lbnRzIGluc3RhbnRseS4gU2ltcGxlciBhbmQgZmFzdGVyIHRoYW4gYmFua3MuPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICAgIDxDb2wgbWQ9ezN9ICBzbT17NH0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9kdWN0X2JveCB0ZXh0LWNlbnRlciB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL29uZGVtYW5kLXBheW91dHMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGlsZV9oZWFkXCI+QmFuayBBY2NvdW50IFZlcmlmaWNhdGlvbjwvaDM+XG4gICAgICAgIDxwPktub3cgeW91ciBjdXN0b21lcjogVmVyaWZ5IGJhbmsgYWNjb3VudCBhbmQgaG9sZGVyIG5hbWUgaW5zdGFudGx5IGJlZm9yZSBzZW5kaW5nIG1vbmV5LjwvcD5cbiAgICAgICAgey8qIDxMaW5rIGhyZWY9XCIvXCIvPiAqL31cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvZHVjdF9ib3ggdGV4dC1jZW50ZXIgdy0xMDBcIj5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9wcm9kdWN0cy9yZWN1cnJpbmctcGF5bWVudHMucG5nXCIgZmx1aWQgLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPlJlY3VycmluZyBQYXltZW50czwvaDM+XG4gICAgICAgIDxwPlVubG9jayBidXNpbmVzcyBvcHBvcnR1bml0aWVzIHdpdGggc3Vic2NyaXB0aW9ucy48L3A+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgIDwvQ29udGFpbmVyPlxuICA8L3NlY3Rpb24+XG4pXG5cbmNvbnN0IFByb2R1Y3RzID0gKCkgPT4gPHNlY3Rpb24gY2xhc3NOYW1lPVwicGFnZV9zZWN0aW9uXCI+XG4gICAgPENvbnRhaW5lcj5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgbWQ9ezEyfSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XG4gICAgICAgIDxoMSBjbGFzc05hbWU9XCJwYWdlX2hlYWRcIj5cbiAgICAgICAgICAgT3VyIFByb2R1Y3RzXG4gICAgICAgIDwvaDE+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuXG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9wcm9kdWN0IHctMTAwXCI+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvcHJvZHVjdHMvcGF5bWVudC1nYXRld2F5LnBuZ1wiIGZsdWlkLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPlBheW1lbnQgR2F0ZXdheTwvaDM+XG4gICAgICAgIDxwPkNvbGxlY3QgbG9jYWwgYW5kIGludGVybmF0aW9uYWwgcGF5bWVudHMgd2l0aCBhIHNpbXBsZSBpbnRlZ3JhdGlvbi4gUmVjZWl2ZSBtb25leSB3aXRoaW4gMiBkYXlzLjwvcD5cbiAgICAgICAgPGEgaHJlZj1cIiNcIj5cbiAgICAgICAgICBMZWFybiBNb3JlXG4gICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9wcm9kdWN0IHctMTAwXCI+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvcHJvZHVjdHMvcGF5b3V0cy5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aWxlX2hlYWRcIj5QYXlvdXRzPC9oMz5cbiAgICAgICAgPHA+U2VuZCBtb25leSB0byBhbnkgYmFuayBhY2NvdW50LCBVUEkgYWRkcmVzcyBvciBQYXlUTSB3YWxsZXQgYnkgdXBsb2FkaW5nIGEgZmlsZSBvciB2aWEgYW4gQVBJLjwvcD5cbiAgICAgICAgPGEgaHJlZj1cIiNcIj5cbiAgICAgICAgICBMZWFybiBNb3JlXG4gICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9wcm9kdWN0IHctMTAwXCI+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvcHJvZHVjdHMvYXV0by1jb2xsZWN0LnBuZ1wiIGZsdWlkLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPkF1dG8gQ29sbGVjdDwvaDM+XG4gICAgICAgIDxwPkF1dG9tYXRpY2FsbHkgdHJhY2sgY3VzdG9tZXIgcGF5bWVudHMgd2l0aCB2aXJ0dWFsIGJhbmsgYWNjb3VudHMuIE5vIG1vcmUgbWFudWFsIHJlY29uY2lsaWF0aW9uLjwvcD5cbiAgICAgICAgPGEgaHJlZj1cIiNcIj5cbiAgICAgICAgICBMZWFybiBNb3JlXG4gICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9wcm9kdWN0IHctMTAwXCI+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvcHJvZHVjdHMvbWFya2V0cGxhY2Utc2V0dGxlbWVudC5wbmdcIiBmbHVpZCAvPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGlsZV9oZWFkXCI+TWFya2V0cGxhY2UgU2V0dGxlbWVudHM8L2gzPlxuICAgICAgICA8cD5BdXRvbWF0aWNhbGx5IHNwbGl0IGNvbW1pc3Npb25zIHdpdGggeW91ciB2ZW5kb3JzIGFmdGVyIGV2ZXJ5IHB1cmNoYXNlLiBSdW4gYSBtYXJrZXRwbGFjZSB3aXRoIGVhc2UuPC9wPlxuICAgICAgICA8YSBocmVmPVwiI1wiPlxuICAgICAgICAgIExlYXJuIE1vcmVcbiAgICAgICAgPC9hPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICA8L0NvbnRhaW5lcj5cbiAgPC9zZWN0aW9uPjtcbmNvbnN0IE5ld3NTZWN0aW9uID0gKCkgPT4gPHNlY3Rpb24gY2xhc3NOYW1lPVwicGFnZV9zZWN0aW9uIGxpZ2h0X2JnXCI+XG48Q29udGFpbmVyPlxuICA8Um93PlxuICAgIDxDb2wgbWQ9ezEyfSB4cz17MTJ9PlxuICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXJcIj5cbiAgICA8aDEgY2xhc3NOYW1lPVwicGFnZV9oZWFkXCI+XG4gICAgIENhc2hmcmVlIGluIHRoZSBOZXdzXG4gICAgPC9oMT5cbiAgICA8L2Rpdj5cbiAgICA8L0NvbD5cbiAgPC9Sb3c+XG4gIDxSb3c+XG4gICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJuZXdzX2xpbmtzXCI+XG4gICAgICA8dWwgY2xhc3NOYW1lPVwibmV3c19saXN0XCI+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby95Yy5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby90Yy5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby90YS5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby9waC5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby9ldC5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaT5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9uZXdzbG9nby95cy5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDwvbGk+XG4gICAgICA8L3VsPlxuICAgIDwvZGl2PlxuICAgIDwvQ29sPlxuICA8L1Jvdz5cblxuICBcbjwvQ29udGFpbmVyPlxuPC9zZWN0aW9uPjtcblxuXG5cbmNvbnN0IEN0YVNlY3Rpb24gPSAoKSA9PiA8c2VjdGlvbiBjbGFzc05hbWU9XCJwYWdlX3NlY3Rpb25cIj5cbiAgICA8Q29udGFpbmVyPlxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXJcIj5cbiAgICAgICAgPGgyIGNsYXNzTmFtZT1cInBhZ2VfaGVhZFwiPlxuICAgICAgICBUYWxrIHRvIG91ciBQYXltZW50IEV4cGVydHNcbiAgICAgICAgPC9oMj5cbiAgICAgICAgPHA+SGF2ZSBhIGNvbXBsZXggcGF5bWVudCBmbG93IG9yIHJlcXVpcmUgcGF5bWVudCByZWxhdGVkIGFkdmljZSA/PC9wPlxuICAgICAgICA8YSBocmVmPVwiI1wiIGNsYXNzTmFtZT1cImJ0bi1wcmltYXJ5XCI+XG4gICAgICAgICAgR2V0IEluIFRvdWNoXG4gICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgPC9Db250YWluZXI+XG4gIDwvc2VjdGlvbj47XG5cblxuY29uc3QgRmFxcyA9ICgpID0+IDxzZWN0aW9uIGNsYXNzTmFtZT1cInBhZ2Vfc2VjdGlvblwiPlxuICAgIDxDb250YWluZXI+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXsxMn0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICA8aDIgY2xhc3NOYW1lPVwicGFnZV9oZWFkXCI+XG4gICAgICAgIEZBUXNcbiAgICAgICAgPC9oMj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXsxMn0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlciBmYXFzXCI+XG4gICAgICAgICAga2poampcbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgPC9Db250YWluZXI+XG4gIDwvc2VjdGlvbj47XG5cblxuXG5cblxuXG5cbmNvbnN0IEhvbWUgPSAoKSA9PiAoXG48PlxuICAgIDxIZWFkPlxuICAgICAgPHRpdGxlPkhvbWU8L3RpdGxlPlxuICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIGhyZWY9XCIvZmF2aWNvbi5pY29cIiAvPlxuICAgICAgPGxpbmsgaHJlZj1cImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Nb250c2VycmF0OjMwMCw0MDAsNTAwLDYwMCw3MDAsODAwfE9wZW4rU2FuczozMDAsNDAwLDYwMCw3MDAsODAwJmRpc3BsYXk9c3dhcFwiIHJlbD1cInN0eWxlc2hlZXRcIj48L2xpbms+XG4gICAgPC9IZWFkPlxuICAgICA8QmFubmVyLz5cbiAgICAgPENvbXBldGl0aW9uLz5cbiAgICAgPFByb2R1Y3RzLz5cbiAgICAgPE5ld3NTZWN0aW9uLz5cbiAgICAgPEZhcXMvPlxuICAgICA8Q3RhU2VjdGlvbi8+XG4gICAgIDxGb290ZXIvPlxuICAgICA8c3R5bGUganN4PntgXG4gICAgIFxuICAgICAuYmFubmVyX3NsaWRlIHtcbiAgICAgICAgbWFyZ2luOiA1MHB4IDA7XG4gICAgICB9XG4gICAgICBcbiAgICBgfVxuICAgICA8L3N0eWxlPlxuICA8Lz5cbilcblxuZXhwb3J0IGRlZmF1bHQgSG9tZVxuIl19 */\n/*@ sourceURL=/Users/deepakkumar/Documents/cashfree-next-web/pages/index.js */"));
+  }, ".banner_slide.jsx-3664128902{margin:50px 0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kZWVwYWtrdW1hci9Eb2N1bWVudHMvY2FzaGZyZWUtbmV4dC13ZWIvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa1dpQixBQUl1QixjQUNoQiIsImZpbGUiOiIvVXNlcnMvZGVlcGFra3VtYXIvRG9jdW1lbnRzL2Nhc2hmcmVlLW5leHQtd2ViL3BhZ2VzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7dXNlU3RhdGV9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuaW1wb3J0IEhlYWRlciBmcm9tICcuLi9jb21wb25lbnRzL0hlYWRlcidcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vY29tcG9uZW50cy9Gb290ZXInXG5pbXBvcnQgSW1hZ2UgZnJvbSAncmVhY3QtYm9vdHN0cmFwL0ltYWdlJ1xuaW1wb3J0IEJ1dHRvbiBmcm9tICdyZWFjdC1ib290c3RyYXAvQnV0dG9uJ1xuaW1wb3J0IEJ1dHRvblRvb2xiYXIgZnJvbSAncmVhY3QtYm9vdHN0cmFwL0J1dHRvblRvb2xiYXInXG5pbXBvcnQgQ29udGFpbmVyIGZyb20gJ3JlYWN0LWJvb3RzdHJhcC9Db250YWluZXInO1xuaW1wb3J0ICcuLi9zdHlsZXMvY3VzdG9tLXRoZW1lLnNjc3MnO1xuaW1wb3J0ICdyZWFjdC1tdWx0aS1jYXJvdXNlbC9saWIvc3R5bGVzLmNzcyc7XG5pbXBvcnQgQ2Fyb3VzZWwgZnJvbSAncmVhY3QtbXVsdGktY2Fyb3VzZWwnO1xuaW1wb3J0IFJvdyBmcm9tICdyZWFjdC1ib290c3RyYXAvUm93J1xuaW1wb3J0IENvbCBmcm9tICdyZWFjdC1ib290c3RyYXAvQ29sJ1xuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xuaW1wb3J0IEhvbWVGYXFzIGZyb20gJy4uL2NvbXBvbmVudHMvSG9tZUZhcXMnXG5pbXBvcnQgVmlkZW9Nb2RhbCBmcm9tICcuLi9jb21wb25lbnRzL1ZpZGVvTW9kYWwnXG5cblxuZnVuY3Rpb24gY2xpZW50cygpIHtcbiAgcmV0dXJuIFtcbiAgICB7IHNyYzonL2NsaWVudHMvY3JlZC5wbmcnLCBhbHQ6J0NyZWQnIH0sXG4gICAgeyBzcmM6Jy9jbGllbnRzL2RlbGhpYmVyeS5wbmcnLCBhbHQ6J2RlbGhpYmVyeScgfSxcbiAgICB7IHNyYzonL2NsaWVudHMvZHVuem8ucG5nJywgYWx0OidkdW56bycgfSxcbiAgICB7IHNyYzonL2NsaWVudHMvZXh4by5wbmcnLCBhbHQ6J2V4eG8nIH0sXG4gICAgeyBzcmM6Jy9jbGllbnRzL3hpYW9taS5wbmcnLCBhbHQ6J3hpYW9taScgfSxcbiAgICB7IHNyYzonL2NsaWVudHMvem9tYXRvLnBuZycsIGFsdDonem9tYXRvJyB9XG4gIF07XG59XG5cbmNvbnN0IHJlc3BvbnNpdmUgPSB7XG4gIHN1cGVyTGFyZ2VEZXNrdG9wOiB7XG4gICAgLy8gdGhlIG5hbWluZyBjYW4gYmUgYW55LCBkZXBlbmRzIG9uIHlvdS5cbiAgICBicmVha3BvaW50OiB7IG1heDogNDAwMCwgbWluOiAzMDAwIH0sXG4gICAgaXRlbXM6IDYsXG4gIH0sXG4gIGRlc2t0b3A6IHtcbiAgICBicmVha3BvaW50OiB7IG1heDogMzAwMCwgbWluOiAxMDI0IH0sXG4gICAgaXRlbXM6IDYsXG4gIH0sXG4gIHRhYmxldDoge1xuICAgIGJyZWFrcG9pbnQ6IHsgbWF4OiAxMDI0LCBtaW46IDc2OCB9LFxuICAgIGl0ZW1zOiAzLFxuICB9LFxuICBtb2JpbGU6IHtcbiAgICBicmVha3BvaW50OiB7IG1heDogNzY3LCBtaW46IDMyMCB9LFxuICAgIGl0ZW1zOiAyLFxuICB9LFxufTtcblxuZnVuY3Rpb24gQmFubmVyQ2xpZW50cyhwcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxDYXJvdXNlbCByZXNwb25zaXZlPXtyZXNwb25zaXZlfVxuICAgICBhcnJvd3M9e2ZhbHNlfVxuICAgICBpbmZpbml0ZT17ZmFsc2V9XG4gICAgIGNlbnRlck1vZGU9e3RydWV9XG4gICAgIHNsaWRlc1RvU2xpZGU9ezF9XG4gICAgIGF1dG9QbGF5PXtwcm9wcy5kZXZpY2VUeXBlICE9PSBcImRlc2t0b3BcIiA/IHRydWUgOiBmYWxzZX1cbiAgICAgc3NyPXt0cnVlfVxuICAgICByZW1vdmVBcnJvd09uRGV2aWNlVHlwZT17W1wiZGVza3RvcFwiLCBcInN1cGVyTGFyZ2VEZXNrdG9wXCJdfVxuICAgICBpdGVtQ2xhc3M9XCJjbGllbnRfbG9nb19pdGVtXCJcbiAgICA+XG4gICAgICB7Y2xpZW50cygpLm1hcChzbGlkZSA9PiAoXG4gICAgICAgICAgICAgICAgPGltZ1xuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImQtYmxvY2sgdy0xMDBcIlxuICAgICAgICAgICAgICAgIHNyYz17c2xpZGUuc3JjfVxuICAgICAgICAgICAgICAgIGFsdD17c2xpZGUuYWx0fVxuICAgICAgICAgICAgICAgIC8+ICAgICAgICBcbiAgICAgICAgICAgICAgKSl9ICBcbiAgICA8L0Nhcm91c2VsPlxuICApO1xufVxuXG5jb25zdCBCYW5uZXIgPSAoKSA9PiAoXG4gIDw+XG4gICA8SGVhZGVyLz5cbiAgPHNlY3Rpb24gY2xhc3NOYW1lPVwiaGVyb19zZWN0aW9uXCI+XG4gICAgPENvbnRhaW5lcj5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgbWQ9ezZ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmFubmVyX2NvbnRcIj5cbiAgICAgICAgPGgxIGNsYXNzTmFtZT1cImJhbm5lcl9oZWFkXCI+XG4gICAgICAgIEEgQ29tcGxldGUgUGF5bWVudHMgVG9vbGtpdCBmb3IgSW5kaWFcbiAgICAgICAgPC9oMT5cbiAgICAgICAgPHA+VGhlIGZhc3Rlc3QgYW5kIGVhc2llc3Qgd2F5IHRvIGNvbGxlY3QgYW5kIGRpc2J1cnNlIHBheW1lbnRzIGZvciBncm93aW5nIGJ1c2luZXNzZXM8L3A+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8QnV0dG9uVG9vbGJhcj5cbiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PVwib3V0bGluZS1saWdodCBtci0zXCI+Q3JlYXRlIEFjY291bnQ8L0J1dHRvbj5cbiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PVwicHJpbWFyeVwiPkNvbnRhY3QgU2FsZXM8L0J1dHRvbj5cbiAgICAgICA8L0J1dHRvblRvb2xiYXI+XG4gICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgICAgaDF7XG4gICAgICAgICAgICAgIGNvbG9yOndoaXRlO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgcHtcbiAgICAgICAgICAgICAgZm9udC1zaXplOiAyMnB4O1xuICAgICAgICAgICAgICBmb250LXdlaWdodDogNTAwO1xuICAgICAgICAgICAgICBwYWRkaW5nOiAyNHB4IDA7XG4gICAgICAgICAgICAgIGNvbG9yOndoaXRlO1xuICAgICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXsxMn0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiYW5uZXJfc2xpZGUgdGV4dC1jZW50ZXJcIj5cbiAgICAgICAgICA8aDQ+T3VyIGN1c3RvbWVycyBpbmNsdWRlPC9oND5cbiAgICAgICAgICA8QmFubmVyQ2xpZW50cy8+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgIDwvQ29udGFpbmVyPlxuICA8L3NlY3Rpb24+XG4gIDwvPlxuKVxuXG5jb25zdCBDb21wZXRpdGlvbiA9ICgpID0+IChcbiAgPHNlY3Rpb24gY2xhc3NOYW1lPVwicGFnZV9zZWN0aW9uIGxpZ2h0X2JnXCI+XG4gICAgPENvbnRhaW5lcj5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgbWQ9ezEyfSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XG4gICAgICAgIDxoMiBjbGFzc05hbWU9XCJwYWdlX2hlYWRcIj5cbiAgICAgICAgU3RheSBBaGVhZCBvZiBDb21wZXRpdGlvbiB3aXRoIENhc2hmcmVlXG4gICAgICAgIDwvaDI+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuXG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvZHVjdF9ib3ggdGV4dC1jZW50ZXIgdy0xMDBcIj5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9wcm9kdWN0cy9pbnN0YW50LXJlZnVuZHMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGlsZV9oZWFkXCI+SW5zdGFudCBSZWZ1bmQ8L2gzPlxuICAgICAgICA8cD5Gb3Igb25saW5lIHBheW1lbnRzIGFuZCBjYXNoIG9uIGRlbGl2ZXJ5IHBheW1lbnRzLiBJbmRlcGVuZGVudCBvZiBiYW5raW5nIGhvdXJzLjwvcD5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvZHVjdF9ib3ggdGV4dC1jZW50ZXIgdy0xMDBcIj5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9wcm9kdWN0cy9pbnN0YW50LWFjY291bnQtdmVyaWZpY2F0aW9uLnBuZ1wiIGZsdWlkLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPk9uLWRlbWFuZCBQYXlvdXRzPC9oMz5cbiAgICAgICAgPHA+RGlzYnVyc2UgYnVsayBwYXltZW50cyBpbnN0YW50bHkuIFNpbXBsZXIgYW5kIGZhc3RlciB0aGFuIGJhbmtzLjwvcD5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIG1kPXszfSAgc209ezR9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJvZHVjdF9ib3ggdGV4dC1jZW50ZXIgdy0xMDBcIj5cbiAgICAgICAgPEltYWdlIHNyYz1cIi9wcm9kdWN0cy9vbmRlbWFuZC1wYXlvdXRzLnBuZ1wiIGZsdWlkLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPkJhbmsgQWNjb3VudCBWZXJpZmljYXRpb248L2gzPlxuICAgICAgICA8cD5Lbm93IHlvdXIgY3VzdG9tZXI6IFZlcmlmeSBiYW5rIGFjY291bnQgYW5kIGhvbGRlciBuYW1lIGluc3RhbnRseSBiZWZvcmUgc2VuZGluZyBtb25leS48L3A+XG4gICAgICAgIHsvKiA8TGluayBocmVmPVwiL1wiLz4gKi99XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBtZD17M30gIHNtPXs0fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByb2R1Y3RfYm94IHRleHQtY2VudGVyIHctMTAwXCI+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvcHJvZHVjdHMvcmVjdXJyaW5nLXBheW1lbnRzLnBuZ1wiIGZsdWlkIC8+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aWxlX2hlYWRcIj5SZWN1cnJpbmcgUGF5bWVudHM8L2gzPlxuICAgICAgICA8cD5VbmxvY2sgYnVzaW5lc3Mgb3Bwb3J0dW5pdGllcyB3aXRoIHN1YnNjcmlwdGlvbnMuPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICA8L0NvbnRhaW5lcj5cbiAgPC9zZWN0aW9uPlxuKVxuXG5jb25zdCBQcm9kdWN0cyA9ICgpID0+IDxzZWN0aW9uIGNsYXNzTmFtZT1cInBhZ2Vfc2VjdGlvblwiPlxuICAgIDxDb250YWluZXI+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIG1kPXsxMn0geHM9ezEyfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgICA8aDEgY2xhc3NOYW1lPVwicGFnZV9oZWFkXCI+XG4gICAgICAgICAgIE91ciBQcm9kdWN0c1xuICAgICAgICA8L2gxPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cblxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17M30gIHNtPXs0fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fcHJvZHVjdCB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL3BheW1lbnQtZ2F0ZXdheS5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aWxlX2hlYWRcIj5QYXltZW50IEdhdGV3YXk8L2gzPlxuICAgICAgICA8cD5Db2xsZWN0IGxvY2FsIGFuZCBpbnRlcm5hdGlvbmFsIHBheW1lbnRzIHdpdGggYSBzaW1wbGUgaW50ZWdyYXRpb24uIFJlY2VpdmUgbW9uZXkgd2l0aGluIDIgZGF5cy48L3A+XG4gICAgICAgIDxhIGhyZWY9XCIjXCI+XG4gICAgICAgICAgTGVhcm4gTW9yZVxuICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBtZD17M30gIHNtPXs0fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fcHJvZHVjdCB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL3BheW91dHMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGlsZV9oZWFkXCI+UGF5b3V0czwvaDM+XG4gICAgICAgIDxwPlNlbmQgbW9uZXkgdG8gYW55IGJhbmsgYWNjb3VudCwgVVBJIGFkZHJlc3Mgb3IgUGF5VE0gd2FsbGV0IGJ5IHVwbG9hZGluZyBhIGZpbGUgb3IgdmlhIGFuIEFQSS48L3A+XG4gICAgICAgIDxhIGhyZWY9XCIjXCI+XG4gICAgICAgICAgTGVhcm4gTW9yZVxuICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBtZD17M30gIHNtPXs0fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fcHJvZHVjdCB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL2F1dG8tY29sbGVjdC5wbmdcIiBmbHVpZC8+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aWxlX2hlYWRcIj5BdXRvIENvbGxlY3Q8L2gzPlxuICAgICAgICA8cD5BdXRvbWF0aWNhbGx5IHRyYWNrIGN1c3RvbWVyIHBheW1lbnRzIHdpdGggdmlydHVhbCBiYW5rIGFjY291bnRzLiBObyBtb3JlIG1hbnVhbCByZWNvbmNpbGlhdGlvbi48L3A+XG4gICAgICAgIDxhIGhyZWY9XCIjXCI+XG4gICAgICAgICAgTGVhcm4gTW9yZVxuICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBtZD17M30gIHNtPXs0fSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fcHJvZHVjdCB3LTEwMFwiPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL3Byb2R1Y3RzL21hcmtldHBsYWNlLXNldHRsZW1lbnQucG5nXCIgZmx1aWQgLz5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpbGVfaGVhZFwiPk1hcmtldHBsYWNlIFNldHRsZW1lbnRzPC9oMz5cbiAgICAgICAgPHA+QXV0b21hdGljYWxseSBzcGxpdCBjb21taXNzaW9ucyB3aXRoIHlvdXIgdmVuZG9ycyBhZnRlciBldmVyeSBwdXJjaGFzZS4gUnVuIGEgbWFya2V0cGxhY2Ugd2l0aCBlYXNlLjwvcD5cbiAgICAgICAgPGEgaHJlZj1cIiNcIj5cbiAgICAgICAgICBMZWFybiBNb3JlXG4gICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgPC9Db250YWluZXI+XG4gIDwvc2VjdGlvbj47XG5jb25zdCBOZXdzU2VjdGlvbiA9ICgpID0+IDxzZWN0aW9uIGNsYXNzTmFtZT1cInBhZ2Vfc2VjdGlvbiBsaWdodF9iZ1wiPlxuPENvbnRhaW5lcj5cbiAgPFJvdz5cbiAgICA8Q29sIG1kPXsxMn0geHM9ezEyfT5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XG4gICAgPGgxIGNsYXNzTmFtZT1cInBhZ2VfaGVhZFwiPlxuICAgICBDYXNoZnJlZSBpbiB0aGUgTmV3c1xuICAgIDwvaDE+XG4gICAgPC9kaXY+XG4gICAgPC9Db2w+XG4gIDwvUm93PlxuICA8Um93PlxuICAgIDxDb2wgbWQ9ezEyfSB4cz17MTJ9PlxuICAgIDxkaXYgY2xhc3NOYW1lPVwibmV3c19saW5rc1wiPlxuICAgICAgPHVsIGNsYXNzTmFtZT1cIm5ld3NfbGlzdFwiPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28veWMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28vdGMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28vdGEucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28vcGgucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28vZXQucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGk+XG4gICAgICAgIDxJbWFnZSBzcmM9XCIvbmV3c2xvZ28veXMucG5nXCIgZmx1aWQvPlxuICAgICAgICA8L2xpPlxuICAgICAgPC91bD5cbiAgICA8L2Rpdj5cbiAgICA8L0NvbD5cbiAgPC9Sb3c+XG5cbiAgXG48L0NvbnRhaW5lcj5cbjwvc2VjdGlvbj47XG5cblxuXG5jb25zdCBDdGFTZWN0aW9uID0gKCkgPT4gPHNlY3Rpb24gY2xhc3NOYW1lPVwicGFnZV9zZWN0aW9uXCI+XG4gICAgPENvbnRhaW5lcj5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgbWQ9ezEyfSB4cz17MTJ9PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XG4gICAgICAgIDxoMiBjbGFzc05hbWU9XCJwYWdlX2hlYWRcIj5cbiAgICAgICAgVGFsayB0byBvdXIgUGF5bWVudCBFeHBlcnRzXG4gICAgICAgIDwvaDI+XG4gICAgICAgIDxwPkhhdmUgYSBjb21wbGV4IHBheW1lbnQgZmxvdyBvciByZXF1aXJlIHBheW1lbnQgcmVsYXRlZCBhZHZpY2UgPzwvcD5cbiAgICAgICAgPGEgaHJlZj1cIiNcIiBjbGFzc05hbWU9XCJidG4tcHJpbWFyeVwiPlxuICAgICAgICAgIEdldCBJbiBUb3VjaFxuICAgICAgICA8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgIDwvQ29udGFpbmVyPlxuICA8L3NlY3Rpb24+O1xuXG5cbmNvbnN0IEZhcXMgPSAoKSA9PiA8c2VjdGlvbiBjbGFzc05hbWU9XCJwYWdlX3NlY3Rpb25cIj5cbiAgICA8Q29udGFpbmVyPlxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXJcIj5cbiAgICAgICAgPGgyIGNsYXNzTmFtZT1cInBhZ2VfaGVhZFwiPlxuICAgICAgICBGQVFzXG4gICAgICAgIDwvaDI+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgICAgPFJvdz5cbiAgICAgICAgPENvbCBtZD17MTJ9IHhzPXsxMn0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmFxc1wiPlxuICAgICAgICA8SG9tZUZhcXMvPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICA8L0NvbnRhaW5lcj5cbiAgPC9zZWN0aW9uPjtcblxuXG5cbmZ1bmN0aW9uIENhc2hncmFtSG9tZSgpIHsgIFxuICBjb25zdCBbc2hvdywgc2V0U2hvd10gPSB1c2VTdGF0ZSh0cnVlKTtcbiAgY29uc3QgaGFuZGxlQ2xvc2UgPSAoKSA9PiBzZXRTaG93KGZhbHNlKTtcbiAgY29uc3QgaGFuZGxlU2hvdyA9ICgpID0+IHNldFNob3codHJ1ZSk7XG5cbiAgICByZXR1cm4gKFxuICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cInBhZ2Vfc2VjdGlvbiBjYXNoZ3JhbV9zZWNcIj5cbiAgICAgICAgPFJvdyBjbGFzc05hbWU9XCJtLTBcIj5cbiAgICAgICAgICA8Q29sIG1kPXs2fSB4cz17MTJ9ICBjbGFzc05hbWU9XCJwLTBcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FzaGdyYW1fdmlkZW9cIj4gIFxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJnX2ltZ1wiPlxuICAgICAgICAgICAgICA8SW1hZ2Ugc3JjPVwiL2ltYWdlcy9jZ19iZy5wbmdcIiBmbHVpZC8+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8YSBjbGFzc05hbWU9XCJwbGF5X2J0blwiIG9uQ2xpY2s9e2hhbmRsZVNob3d9PjxJbWFnZSBzcmM9XCIvaWNvbnMvcGxheWljb24ucG5nXCIgZmx1aWQvPjwvYT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgXG4gICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgIDxDb2wgbWQ9ezZ9IHhzPXsxMn0+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNhc2hncmFtX2NvbnRlbnRcIj5cbiAgICAgICAgICAgIDxoMz5DYXNoZ3JhbSA8YnIvPiBGaXJzdCBvZiBpdHMga2luZCByZWZ1bmQgc29sdXRpb248L2gzPlxuICAgICAgICAgICAgPHA+Q2FzaGdyYW0gaXMgYSB3ZWJsaW5rIGJ1c2luZXNzZXMgY2FuIHNlbmQgdXNlcnMgdG8gY29sbGVjdCBhY2NvdW50IGRldGFpbHMgYW5kIG1ha2UgcGF5bWVudCBpbnN0YW50bHkuIDxiPiBFeHBlcmllbmNlIHRoZSBmdXR1cmUgb2YgcmVmdW5kcyBpbiBJbmRpYS48L2I+PC9wPiBcbiAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5jYXNoZnJlZS5jb20vY2FzaGdyYW1cIiB0YXJnZXQ9XCJfYmxhbmtcIiBjbGFzc05hbWU9XCJidG4gYnRuLXByaW1hcnlcIj5MZWFybiBtb3JlPC9hPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICA8L1Jvdz5cbiAgICAgICAgICA8VmlkZW9Nb2RhbCBzaG93PXtzaG93fS8+XG4gICAgICA8L3NlY3Rpb24+XG4gICAgKTtcblxufVxuXG5cblxuXG5jb25zdCBIb21lID0gKCkgPT4gKFxuPD5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT5Ib21lPC90aXRsZT5cbiAgICAgIDxsaW5rIHJlbD1cImljb25cIiBocmVmPVwiL2Zhdmljb24uaWNvXCIgLz5cbiAgICAgIDxsaW5rIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TW9udHNlcnJhdDozMDAsNDAwLDUwMCw2MDAsNzAwLDgwMHxPcGVuK1NhbnM6MzAwLDQwMCw2MDAsNzAwLDgwMCZkaXNwbGF5PXN3YXBcIiByZWw9XCJzdHlsZXNoZWV0XCI+PC9saW5rPlxuICAgIDwvSGVhZD5cbiAgICAgPEJhbm5lci8+XG4gICAgIDxDb21wZXRpdGlvbi8+XG4gICAgIDxQcm9kdWN0cy8+XG4gICAgIDxDYXNoZ3JhbUhvbWUvPlxuICAgICA8TmV3c1NlY3Rpb24vPlxuICAgICA8RmFxcy8+XG4gICAgIDxDdGFTZWN0aW9uLz5cbiAgICAgPEZvb3Rlci8+XG4gICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgXG4gICAgIC5iYW5uZXJfc2xpZGUge1xuICAgICAgICBtYXJnaW46IDUwcHggMDtcbiAgICAgIH1cbiAgICAgIFxuICAgIGB9XG4gICAgIDwvc3R5bGU+XG4gIDwvPlxuKVxuXG5leHBvcnQgZGVmYXVsdCBIb21lXG4iXX0= */\n/*@ sourceURL=/Users/deepakkumar/Documents/cashfree-next-web/pages/index.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fdeepakkumar%2FDocuments%2Fcashfree-next-web%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************************/
@@ -20682,5 +23285,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
