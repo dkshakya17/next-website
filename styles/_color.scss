@@ -1,0 +1,35 @@
+
+$yellow:#f2b81a;
+$primary: #7d44f0; 
+$secondary:#00b7b1;
+$green-dark:#00a49f;
+$light-bg:#f3f6ff;
+$light-black:#333;
+$dark-grey:#666666;
+$light-white:rgba(255,255,255,.7);
+$white:#fff;
+$dark-blue:#4f3b7a;
+$blue:#6a5594;
+$voilet:#6844b0;
+
+/*------color class--------*/
+
+.white{
+    color: $white !important;
+}
+.green{
+    color: $secondary !important;
+}
+.blue{
+    color: $blue !important;
+}
+.yellow{
+    color: $yellow !important;
+}
+.voilet_bg{
+    background-color: $voilet !important;
+}
+
+.primary_bg{
+    background-color: $primary !important;
+}

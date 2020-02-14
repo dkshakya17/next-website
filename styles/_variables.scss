@@ -1,5 +1,28 @@
+$font-color: $dark-grey;
+$font-stack:'Open Sans', sans-serif;
 
-$theme-colors: (
-  "primary": #4fb8b1,
-  "secondary": #695594
-);
+
+// Small tablets and large smartphones (landscape view)
+$screen-xs-min: 320px;
+
+// Small tablets (portrait view)
+$screen-sm-min: 768px;
+
+// Tablets and small desktops
+$screen-md-min: 992px;
+
+// Large tablets and desktops
+$screen-lg-min: 1024px;
+
+
+// Small tablets and large smartphones (landscape view)
+$screen-xs-max: 767px;
+
+// Small tablets (portrait view)
+$screen-sm-max: 991px;
+
+// Tablets and small desktops
+$screen-md-max: 1023px;
+
+// Large tablets and desktops
+$screen-lg-max: 1600px;

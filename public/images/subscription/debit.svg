@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="34px" viewBox="0 0 87 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>debit_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 34 45.999 34 45.999 0.497 40.2705219 0.497 0 0.497"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Subscription" transform="translate(-681.000000, -930.000000)">
+            <g id="Main-Fold">
+                <g id="PoweringRecurringpayments" transform="translate(543.000000, 930.000000)">
+                    <g id="debit_icon" transform="translate(138.000000, 0.000000)">
+                        <text id="Debit" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" letter-spacing="0.048" fill="#FFFFFF">
+                            <tspan x="52" y="22">Debit</tspan>
+                        </text>
+                        <g id="Group-8">
+                            <g id="Group-7">
+                                <path d="M43.8376,32.9996 L2.1616,32.9996 C1.5206,32.9996 0.9996,32.4796 0.9996,31.8386 L0.9996,2.6586 C0.9996,2.0176 1.5206,1.4976 2.1616,1.4976 L43.8376,1.4976 C44.4796,1.4976 44.9996,2.0176 44.9996,2.6586 L44.9996,31.8386 C44.9996,32.4796 44.4796,32.9996 43.8376,32.9996" id="Fill-1" fill="#FFFFFF"></path>
+                                <path d="M43.8376,32.9996 L2.1616,32.9996 C1.5206,32.9996 0.9996,32.4796 0.9996,31.8386 L0.9996,2.6586 C0.9996,2.0176 1.5206,1.4976 2.1616,1.4976 L43.8376,1.4976 C44.4796,1.4976 44.9996,2.0176 44.9996,2.6586 L44.9996,31.8386 C44.9996,32.4796 44.4796,32.9996 43.8376,32.9996 Z" id="Stroke-3" stroke="#FFFFFF" stroke-width="2"></path>
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-6"></g>
+                                <polygon id="Fill-5" fill="#6844B0" mask="url(#mask-2)" points="1 22.877 45 22.877 45 6.877 1 6.877"></polygon>
+                            </g>
+                            <text id="Debit" font-family="LucidaGrande, Lucida Grande" font-size="12" font-weight="normal" letter-spacing="0.048" fill="#FFFFFF">
+                                <tspan x="7" y="18">D</tspan>
+                                <tspan x="16.0362813" y="18">ebit</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

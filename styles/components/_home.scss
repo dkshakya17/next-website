@@ -1,0 +1,291 @@
+/* home css */
+
+.product_box {
+    @extend %justify-center;
+    flex-flow: column;
+    margin: 20px 0;
+
+    img{
+        max-width: 80px;
+    }
+    p{
+        line-height: 22px;
+        letter-spacing: .8px;
+    }
+}
+.main_product{
+   padding: 25px 20px;
+   margin: 50px 0;
+   -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    box-shadow: 0px 20px 20px 0px rgba(12, 0, 46, 0.08);
+    min-height: 270px;
+    @include xs{
+        min-height: auto;
+        margin: 20px 0;
+    }
+    iframe{
+        @include xs{
+            height: auto;
+        }
+    }
+    
+    .tile_head {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin: 15px 0;
+        padding: 0;
+    }
+
+    .card_img {
+        display: inline-flex;
+        height: 80px;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+   
+    img{
+    max-width: 80px;
+    padding-bottom: 5px;
+     }
+        &:hover {
+            box-shadow: 0px 20px 40px 0px rgba(12, 0, 46, 0.08);
+            background-color: $white;
+            -webkit-transform: translate3d(0, -20px, 0);
+            -moz-transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
+        }
+}
+
+.news_list{
+    margin: 20px 0;
+    @extend %justify-center;
+    list-style: none;
+    @include xs{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    li{
+        &:hover{
+            img{
+                filter: none;
+            }
+        }
+        img{
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+
+    }
+}
+
+/*===============faq css=================*/
+.faqs{
+   .card{
+    border: none;
+    border-radius: 0 !important;
+    border-bottom: 1px solid $primary !important;
+    .card-header {
+        background: transparent;
+        border: none;
+        padding: 20px 0;
+        cursor: pointer;
+        &:hover{
+            .faq_head {
+                color: $primary
+            }
+        }
+        .faq_head {
+            margin: 0;
+            font-size: 1.2rem;
+            color: $light-black;
+            line-height: 24px;
+            @include xs{
+                font-size: 1rem;
+            }
+        }
+    }
+    .card-body{
+        padding: 10px 0;
+    }
+
+   }
+}
+/*===============testimonial css=================*/
+
+.testimonial_slider{
+    padding: 50px 0;
+
+    .carousel-control-prev, .carousel-control-next
+    {
+        top: inherit;
+        bottom: 10%;
+        width: 50px;
+        height: 40px;
+        color: $primary;
+        border-radius: 8px;
+        background: $primary;
+        opacity: 1;
+        @include xs{
+            bottom: 0%;
+        }
+    }
+    .carousel-control-prev {
+        left: inherit;
+        right: 45%; 
+        @include xs{
+            right: 50%; 
+        }
+    }
+    .carousel-control-next {
+        right: 40%; 
+        @include xs{
+            right: 30%; 
+        }
+    }
+    .carousel-item{
+        .row{
+            @extend %justify-center;
+        }
+    }
+    .illus_sec {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        
+        .illus_img {
+            width: 400px;
+            height: 500px;
+            border-radius: 6px;
+            background-image: linear-gradient(to right,#7239e4,#531cc2);
+            position: relative;
+            float: right;
+            @include xs{
+                width: 100%;
+                height: 230px;
+            }
+        }
+        img {
+            position: absolute;
+            width: 100%;
+            height: 370px;
+            object-fit: contain;
+            right: 0;
+            top: 12%;
+            max-width: 100%;
+            @include xs{
+                height: 170px;
+            }
+        }
+    }
+
+    .content_testi {
+        padding-left: 30px;
+        img{
+            width: auto;
+            margin-bottom: 20px;
+        }
+        .user_det {
+            display: inline-flex;
+            width: 100%;
+            justify-content: flex-start;
+            align-items: center;
+            img {
+                border-radius: 50%;
+                height: 80px;
+                margin: 0;
+                width: 80px;
+            }
+            .testi_pro {
+                margin: 10px 10px!important;
+               h2 {
+                    font-size: 24px;
+                    margin: 10px 0!important;
+                    color: $light-black;
+                }
+            }
+        }
+    }
+}
+/*===============cashgram css=================*/
+
+.cashgram_sec{
+background-color: $primary;
+padding: 0 !important;
+
+.cashgram_video{
+    @extend %justify-center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff4a;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .bg_img {
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        opacity: .5;
+        img{
+            object-fit:contain;
+            object-position: center;
+            width: auto;
+        }
+    }
+    .play_btn {
+        position: absolute;
+        max-width: 100px;
+    }
+}
+.cashgram_content{
+    @extend %justify-start;
+    width: 100%;
+    height: 100%;
+    flex-flow: column;
+    min-height: 300px;
+    h3{
+      color: $white;
+      font-weight: 600;
+      font-size: 2rem; 
+      @include xs{
+        font-size: 1.5rem; 
+        margin: 10px 0;
+    }
+    }
+    p{
+    font-size: 1rem;
+    color: $white; 
+    max-width: 400px; 
+    }
+}
+
+}
+
+.video_popup{
+    width: 100%;
+    min-height: 400px;
+}
+.close_btn {
+    position: absolute;
+    top: -30px;
+    right: -25px;
+    font-size: 39px;
+    font-weight: 600;
+    color: white;
+    background: #7d44f0;
+    border-radius: 50%;
+    width: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    cursor: pointer;
+}
